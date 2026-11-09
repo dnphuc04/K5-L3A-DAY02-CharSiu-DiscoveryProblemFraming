@@ -5,10 +5,10 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
-- Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Tên nhóm: CharSiu
+- Thành viên: Đồng Ngọc Phúc (2A202603399), Dương Tuấn Hưng (2A202603416), Nguyễn Tuấn Kiệt (2A202603417), Trần Thị Lý (2A202603404). Phân công và đóng góp từng người cần cập nhật trong `TEAM.md`.
+- Candidate problem được chọn (1 câu): Kiểm tra bài nộp theo rubric/quy cách trước deadline (gộp candidate #5 và #7 ở CP3).
+- Quyết định cuối: Chưa được nhóm chốt. Đề xuất trong bản dự thảo CP6: Not Yet, chờ kiểm chứng CP4.
 
 ---
 
@@ -100,211 +100,263 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
+**Phạm vi:** Kiểm tra bài nộp theo rubric/quy cách trước deadline. Tách hai loại yêu cầu: (1) quy cách xác định được như tên file, thư mục, file bắt buộc; (2) chất lượng nội dung cần đọc và đánh giá. Chưa kết luận một cách kiểm tra có thể xử lý cả hai.
+
+**Trạng thái:** Assumption map và kế hoạch dưới đây là bản đề xuất để nhóm xác nhận. Research tài liệu đã được AI mở và đọc ngày 09/11/2026; nhóm cần tự mở lại các link trước khi chốt. Chưa có phỏng vấn/survey ngoài nhóm, chưa thử nghiệm giải pháp. Không coi các số liệu cá nhân là kết quả kiểm chứng CP4.
+
 ### 3.1. Assumption Map
+
+Thang điểm đề xuất: quan trọng 1 = ít ảnh hưởng, 5 = quyết định hướng làm; bằng chứng 1 = chưa có trực tiếp, 2 = có hồi tưởng trong nhóm, 3–5 cần bằng chứng ngoài nhóm và/hoặc quan sát, đo lặp lại. Điểm không phải kết quả bỏ phiếu đã diễn ra.
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Sinh viên ngoài nhóm cũng mất thời gian hoặc từng bị trừ điểm do bỏ sót yêu cầu khi rà bài nộp. | Value | 5 | 2 | Có — phỏng vấn 2–3 người ngoài nhóm đã từng phụ trách nộp bài. |
+| 2 | Một phần đáng kể lỗi và thời gian rà bài nằm ở quy cách xác định được, không chỉ ở chất lượng nội dung. | Feasibility | 5 | 2 | Có — phân loại từng lỗi thực tế và quan sát một lượt rà bài. |
+| 3 | Checklist cố định và review chéo chưa đủ giải quyết phần pain cần ưu tiên. | Value | 5 | 1 | Có — hỏi cách xử lý hiện tại, quan sát trước khi đề xuất tự động hóa. |
+| 4 | Người nộp hiểu được cảnh báo kèm yêu cầu gốc, tự sửa và kiểm tra lại trước khi nộp. | Usability | 4 | 1 | Sau #1–#3 — thử một ví dụ báo lỗi, quan sát người dùng giải thích và sửa. |
+| 5 | Đề/rubric và bản bài nộp có sẵn, được phép sử dụng và có thể chuyển yêu cầu quy cách thành checklist/rule mà không hiểu sai. | Feasibility | 5 | 2 | Có — lấy một bộ đề và bài đã được phép chia sẻ; đối chiếu thủ công từng rule với nguồn. |
+| 6 | Chi phí thiết lập và cập nhật khi đề thay đổi thấp hơn thời gian tiết kiệm được; có người chịu trách nhiệm cập nhật. | Viability | 4 | 1 | Sau xác nhận pain — ghi thời gian thiết lập/cập nhật và tần suất dùng, chưa giả định công cụ miễn phí. |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
+**Ưu tiên đề xuất:** #1, #2, #3 và #5. Chưa chọn AI; cần biết pain có phổ biến, loại lỗi nào chiếm ưu thế và giải pháp đơn giản đã đủ chưa.
 
-Giả định nhóm kiểm chứng trong buổi này:
+**Giả định nhóm thực tế chọn kiểm chứng:** Chưa ghi nhận; nhóm bổ sung sau khi thống nhất.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+**Chưa thực hiện. Kế hoạch đề xuất:** Phỏng vấn nhanh 2–3 sinh viên ngoài nhóm từng trực tiếp rà và nộp bài lab/đồ án; không phỏng vấn thành viên CharSiu thay cho người ngoài nhóm. Người thật hỏi người thật, không dùng AI đóng vai người dùng. Xin phép trước khi xem bài hoặc chụp bằng chứng; chỉ ghi vai trò, ngày, cách hỏi và dữ liệu đã ẩn danh.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+**Hướng dẫn hỏi về hành vi đã xảy ra:**
+
+1. Lần gần nhất bạn trực tiếp kiểm tra và nộp bài nhóm là khi nào? Bài đó yêu cầu nộp những gì?
+2. Bạn đã kiểm tra theo thứ tự nào, dùng đề/rubric/checklist ở đâu? Có thể mô tả hoặc cho xem một ví dụ đã ẩn danh không?
+3. Bước nào mất thời gian nhất? Bạn có mốc tin nhắn, lịch sử sửa hoặc số đo để đối chiếu không?
+4. Lần gần nhất phát hiện thiếu/sai là lỗi gì? Phát hiện trước hay sau nộp, hậu quả thực tế ra sao?
+5. Bạn đã dùng checklist, template, script hoặc review chéo như thế nào? Cách đó giải quyết được gì và còn vướng gì?
+6. Có lần nào kiểm tra rất nhanh hoặc không gặp lỗi không? Điều gì khác ở lần đó?
+
+Không hỏi “Bạn có muốn dùng công cụ này không?”. Không giới thiệu giải pháp trước khi thu thập trải nghiệm. Tín hiệu phản bác có thể là người dùng đã rà nhanh bằng checklist, lỗi chủ yếu ở nội dung hoặc quy cách thay đổi quá nhiều.
+
+**Mẫu Interview Snapshot — sao chép một bảng cho mỗi người được hỏi:**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Mã / vai trò người được hỏi | Chưa thu thập |
+| Ngày, cách hỏi, người phỏng vấn | Chưa thu thập |
+| Câu nói đáng nhớ nhất (nguyên văn) | Chưa thu thập; không tự dựng lời nói |
+| Lần gần nhất: chuyện gì xảy ra? | Chưa thu thập |
+| Quy trình và cách xử lý hiện tại | Chưa thu thập |
+| Thời gian, tần suất, bằng chứng | Chưa thu thập; tách thời gian rà, sửa, chờ và nộp |
+| Loại lỗi thực tế | Chưa thu thập; tách quy cách với chất lượng nội dung |
+| Tín hiệu xác nhận / phản bác | Chưa thu thập |
+| Insight và giới hạn suy luận | Chưa thu thập |
 
-Tổng hợp:
+**Tổng hợp bằng chứng hiện có và khoảng trống:**
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn |
 |---|---:|---|---|
-| | | | |
+| CP1–CP2 của Hưng và Kiệt, nguồn nội bộ trước CP4 | 2 người | Có hồi tưởng về thời gian rà bài và lỗi bị trừ điểm. | Chưa xác minh ngoài nhóm; baseline và phạm vi tính thời gian khác nhau. Chưa biết checklist đã đủ chưa. |
+| Phỏng vấn ngoài nhóm ở CP4 | 0 | Chưa thu thập | Chưa thu thập; không được kết luận đã xác nhận pain. |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Chưa có kết quả để ghi. Sau phỏng vấn, ghi rõ giả định nào được xác nhận/phản bác, phạm vi đổi gì và lý do. Nếu không có pain đủ mạnh hoặc checklist đã đủ, cân nhắc thu hẹp/đổi candidate hoặc No AI.
 
 ### 3.3. Research giải pháp đã có
 
+Ba pattern dưới đây là các bước có thể kết hợp, không phải ba sản phẩm độc lập. Mô tả khả năng dựa trên tài liệu chính thức; nhận định về độ phù hợp là phân tích cho bài toán, chưa phải kết quả dùng thử.
+
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Checklist Markdown trên GitHub — No AI | [GitHub: About tasklists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists) | Biến yêu cầu thành danh sách để người nộp tự đánh dấu và review chéo. | Tài liệu hướng dẫn checkbox Markdown; dễ ghi từng yêu cầu và trạng thái. | Dấu tick không tự chứng minh file hay nội dung đúng. Phải có người đọc đề và cập nhật checklist. | Thử checklist trước; mỗi mục liên kết nguồn yêu cầu và ghi ai kiểm. Phân biệt checkbox Markdown với tính năng tasklist block đã ngừng. |
+| GitHub Actions — chạy kiểm tra theo sự kiện hoặc thủ công (Rule) | [GitHub: Triggering a workflow](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow) | Kích hoạt bộ rule khi có thay đổi hoặc khi người nộp yêu cầu kiểm. | Có cơ chế sự kiện, bộ lọc và chạy thủ công để tổ chức kiểm tra lặp lại. | Trang này mô tả cơ chế kích hoạt, không cung cấp sẵn bộ chấm rubric. Nhóm phải tự định nghĩa rule/script, quyền chạy và theo dõi chi phí/cập nhật. | Có thể tự động hóa phần xác định được như đường dẫn, file bắt buộc; chưa suy ra đánh giá được chất lượng nội dung. Lab này chỉ thiết kế, chưa cần viết code. |
+| GitHub CLI `gh pr checks` — xem kết quả kiểm tra PR | [GitHub CLI: gh pr checks](https://cli.github.com/manual/gh_pr_checks) | Xem trạng thái các CI check đã được cấu hình cho pull request. | Tập trung trạng thái kiểm tra để người phụ trách rà trước khi xử lý PR. | Không tự tạo rule, không chấm nội dung và không thay thao tác nộp LMS. Phụ thuộc nhóm dùng PR và đã cấu hình check. | Phân biệt bước kiểm tra với bước đọc kết quả; trạng thái pass chỉ áp dụng cho các điều kiện thực sự đã kiểm. |
+
+**Hướng cần kiểm chứng tiếp:** So sánh checklist + review chéo với Rule cho lỗi quy cách. Chỉ cân nhắc AI cho yêu cầu nội dung chưa xử lý được bằng mức đơn giản hơn, sau khi có dữ liệu và tiêu chí đánh giá rõ. Chưa chọn mức can thiệp hay quyết định Go ở CP4.
 
 ---
 
 ## 4. Quy trình trước/sau (CP5)
 
+**Bản dự thảo để nhóm phản biện và tự chốt.** CP4 chưa có phỏng vấn ngoài nhóm; quy trình hiện tại lấy một nguồn cụ thể là Card #1 của Kiệt, không lấy trung bình với số liệu của Hưng. Mọi thời gian hiện tại là hồi tưởng; thời gian tương lai là mục tiêu, chưa phải kết quả thử nghiệm.
+
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
-
 ```text
-
+Đọc yêu cầu LMS [3 phút]
+  → Mở rubric [2 phút]
+  → Đọc báo cáo [10 phút]
+  → Đối chiếu, ghi thiếu/sai [8 phút; BOTTLENECK GIẢ ĐỊNH]
+  → Sửa, format và push [2 phút]
+Tổng: 25 phút/lần, theo Card #1 của Kiệt.
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Người phụ trách nộp | Đề trên LMS | Yêu cầu đã đọc | 3 phút/lần | Chưa quan sát trực tiếp |
+| 2 | Người phụ trách nộp | Rubric/checklist | Tiêu chí dùng để đối chiếu | 2 phút/lần | Cần đúng phiên bản |
+| 3 | Người phụ trách nộp | Báo cáo đã ghép | Nội dung đã đọc | 10 phút/lần | Lâu nhất, chưa chắc là bottleneck |
+| 4 | Người phụ trách nộp | Bài và rubric | Danh sách thiếu/sai | 8 phút/lần | Bottleneck giả định theo card; cần kiểm chứng |
+| 5 | Người phụ trách nộp | Danh sách thiếu/sai | Bài sửa và commit | 2 phút/lần | Thời gian sửa biến động theo lỗi |
 
-**Bottleneck chính:**
+**Bottleneck chính dự kiến:** đối chiếu từng yêu cầu với bài (bước 4). Không coi mọi phút đọc bài là lãng phí. Tần suất 5 lab/tuần và 2/5 lab bị trừ điểm là hồi tưởng riêng của Kiệt, chưa đại diện cho sinh viên nói chung.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+**Phương án đề xuất:** No AI trước, Rule nếu dữ liệu thử nghiệm cho thấy đáng làm. Chưa xây hoặc cài script trong lab.
 
 ```text
+[Con người] Chốt checklist theo đúng phiên bản đề/rubric
+  → [Rule dự kiến] Kiểm tên, đường dẫn, file bắt buộc
+  → [Con người] Đọc cảnh báo và tự đánh giá nội dung theo rubric
+  → [Con người] Sửa bài, kiểm lại; quyết định nộp
 
+Rule lỗi / yêu cầu chưa chuyển được thành rule
+  → Quay về checklist và review chéo thủ công
+  → Người phụ trách vẫn tự kiểm trước khi nộp
 ```
+
+**Boundary:** chỉ kiểm các điều kiện xác định đã được người phụ trách xác nhận. Không chấm điểm thay coach, không tự sửa bài thành viên, không tự push/nộp LMS. “Pass” nghĩa là các rule đã cấu hình đạt, không có nghĩa toàn bài đạt rubric. Cảnh báo phải có nguồn yêu cầu; khi đề đổi hoặc rule không hiểu yêu cầu, đánh dấu cần kiểm thủ công.
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
-
----
+|---|---|---|---|
+| Số bước | 5 | 4 | Theo sơ đồ; số bước ít hơn chưa chứng minh hiệu quả |
+| Tổng thời gian/lần | 25 phút, một nguồn hồi tưởng | Dưới 10 phút | Cùng phạm vi đọc, kiểm, sửa và chuẩn bị bản nộp; chưa thử |
+| Số bước thủ công | 5 | 3, và 1 bước Rule | Có công thiết lập/cập nhật riêng cần đo |
+| Bottleneck | Đối chiếu 8 phút, giả định | Có thể chuyển sang đọc nội dung và xử lý cảnh báo | Cần quan sát lại |
+| Rủi ro mới | Bỏ sót do người rà | Rule cũ/sai, báo nhầm, hiểu nhầm pass là đủ | Kiểm nguồn, review chéo, fallback |
 
 ## 5. Problem Statement v0 (CP5)
 
+**Dự thảo sau tổng hợp nguồn nội bộ, chưa phải bản đã kiểm chứng CP4.**
+
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên phụ trách rà và nộp báo cáo lab nhóm trên GitHub/LMS. |
+| **Quy trình** | Đọc đề và rubric, đọc bài nhóm, đối chiếu yêu cầu, sửa và chuẩn bị bản nộp. |
+| **Bottleneck** | Đối chiếu yêu cầu với bài để tìm phần thiếu/sai; 8 phút trong mẫu 25 phút của Kiệt, giả định cần kiểm chứng. |
+| **Impact** | Tốn công rà lặp lại và có nguy cơ bỏ sót dẫn đến trừ điểm; hiện mới có hồi tưởng của Hưng và Kiệt, chưa đo ngoài nhóm. |
+| **Success Metric** | Đề xuất: tổng thời gian cùng phạm vi từ 25 xuống dưới 10 phút/lần; không còn lỗi quy cách phát hiện sau nộp trong 2 tuần theo dõi. Bấm giờ từng bước, lưu phiên bản bài và yêu cầu, ghi lỗi trước/sau nộp; báo cả số lượt kiểm. |
+| **Boundary** | Người nộp kiểm tra và quyết định cuối; không tự sửa bài, không tự nộp, không thay coach chấm chất lượng nội dung. |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
-
--
-
----
+**Phản biện bản dự thảo từ AI, chưa có phản hồi chốt của nhóm:** Baseline mới một nguồn; 2 phút sửa không ổn định; cần tách lỗi quy cách với lỗi nội dung. Mục tiêu dưới 10 phút có thể không đạt khi bài dài hoặc cần sửa nhiều. Cần đo cả công thiết lập để tránh chỉ tính thời gian chạy rule.
 
 ## 6. Mức can thiệp AI (CP6)
 
+**Phân tích đề xuất để nhóm tự quyết định; chưa phải kết quả thống nhất CP6.**
+
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
-
-Vì sao:
+- Kiểm tên, đường dẫn, file bắt buộc: mơ hồ thấp, độ phức tạp thấp nếu yêu cầu đã rõ; phù hợp checklist/Rule.
+- Đánh giá lập luận và mức đạt rubric: mơ hồ cao hơn; giữ con người đánh giá trong phạm vi hiện tại.
+- Việc chuyển đề tự nhiên sang rule có thể mơ hồ; người phụ trách phải duyệt từng điều kiện trước khi sử dụng.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** | Checklist theo đề và review chéo | Lỗi ít, bài ngắn, yêu cầu ít thay đổi | Quên tick hoặc tick khi chưa kiểm | Mốc so sánh phải thử trước |
+| **Rule** | Điều kiện tên, file, thư mục và cảnh báo có nguồn | Lỗi quy cách đủ lặp lại, điều kiện xác định được | Rule cũ hoặc sai, chi phí bảo trì | Ứng viên thử nghiệm, chưa chốt |
+| **Workflow** | AI gợi ý đối chiếu nội dung, con người duyệt | Chỉ cân nhắc nếu No AI/Rule thiếu và có bộ eval | Bỏ sót, suy diễn, dữ liệu bài làm | Chưa có bằng chứng cần dùng |
+| **Agent** | Tự tìm yêu cầu, chọn công cụ, sửa/nộp | Chưa có nhu cầu đã chứng minh trong phạm vi lab | Tự quyết sai, vượt quyền sửa/nộp | Không đề xuất |
 
-**Mức chọn:**
+**Mức đề xuất:** No AI làm baseline; thử Rule cho quy cách nếu CP4 xác nhận nhu cầu.
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao chưa chọn mức cao hơn:** Chưa có bằng chứng checklist không đủ. Rule chỉ đáng làm nếu lợi ích vượt chi phí thiết lập/cập nhật. Không chọn AI chỉ vì bài lab thuộc khóa AI.
 
 ### 6.3. AI Canvas rút gọn
 
-| Thành phần | Nội dung |
-|---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+Không áp dụng cho phương án No AI/Rule đề xuất. Không có bước dự đoán AI. Input là phiên bản đề/rubric, checklist đã duyệt và cây file bài nộp; output dự kiến là trạng thái từng điều kiện và đường dẫn lỗi. Con người quyết định sửa/nộp; phản hồi lấy từ lỗi rule và review thủ công.
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
-
----
+Không bắt buộc với No AI/Rule. Chưa có dữ liệu để khẳng định người dùng muốn giao hẳn việc. Thiết kế đề xuất giữ quyền quyết định cho người nộp. Bỏ sót lỗi và báo nhầm đều phải được ghi riêng trong thử nghiệm.
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
 
+**V1 dự thảo, chưa được nhóm chốt và chưa kiểm chứng ngoài nhóm.**
+
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Người phụ trách rà và nộp báo cáo lab nhóm. |
+| **Quy trình** | Dùng checklist đã duyệt; có thể chạy Rule cho quy cách; con người kiểm nội dung, xử lý cảnh báo và tự nộp. |
+| **Bottleneck** | Đối chiếu thủ công các yêu cầu quy cách lặp lại; chưa biết tỷ trọng của phần này trong 8 phút đối chiếu. |
+| **Impact** | Giảm công rà và lỗi quy cách nếu thử nghiệm chứng minh được; không suy rộng sang chất lượng học thuật. |
+| **Success Metric** | Mục tiêu dự thảo: dưới 10 phút/lần cho cùng phạm vi với baseline 25 phút; không có lỗi quy cách sau nộp trong 2 tuần. Đo công thiết lập/cập nhật riêng, ghi số bài, số rule, lỗi báo nhầm/bỏ sót. |
+| **Boundary** | Chỉ kiểm điều kiện đã duyệt; nội dung do người đánh giá. Không sửa bài, push hoặc nộp tự động; lỗi/chưa rõ thì về kiểm thủ công. |
+| **AI intervention point** | Không có — chưa chứng minh nhu cầu AI; phần quy cách có thể dùng No AI/Rule. |
+| **Mức chọn** | Đề xuất No AI trước; Rule là thử nghiệm có điều kiện, chưa chốt. |
+| **Rủi ro & người kiểm tra** | Người phụ trách nộp duyệt checklist/rule và kết quả; một thành viên review chéo. Chưa phân công đích danh. |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Phạm vi kiểm | Yêu cầu bài nộp nói chung | Tách quy cách với chất lượng nội dung | Không đánh đồng kiểm file với chấm rubric |
+| Mức can thiệp | Chưa xác định | No AI baseline, Rule thử có điều kiện | Chọn mức đơn giản dựa trên bằng chứng |
+| Đo lường | Tổng thời gian và lỗi sau nộp | Thêm công thiết lập, báo nhầm/bỏ sót, số mẫu | Tránh kết luận tiết kiệm từ thời gian chạy đơn lẻ |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+**Tiêu chí đánh giá giải pháp No AI/Rule — đề xuất, chưa chạy eval:**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-
----
+| 1 | Truy xuất yêu cầu | Mỗi mục kiểm có nguồn và phiên bản đề/rubric được người phụ trách duyệt | Điều kiện tự suy ra, không có nguồn hoặc đã lỗi thời |
+| 2 | Phát hiện lỗi đã biết | Phát hiện toàn bộ lỗi quy cách được cài sẵn trong bộ mẫu đã duyệt | Bỏ sót lỗi mẫu |
+| 3 | Không báo lỗi oan | Mẫu hợp lệ không bị kết luận sai; mục ngoài phạm vi ghi cần kiểm thủ công | Chặn mẫu hợp lệ hoặc kết luận đạt cho nội dung chưa kiểm |
+| 4 | Giải thích và quyền kiểm soát | Chỉ đúng vị trí, điều kiện sai; người dùng tự sửa/nộp; có fallback | Cảnh báo không hiểu được, tự sửa/nộp hoặc không có fallback |
+| 5 | Hiệu quả | Đo cùng phạm vi, hướng tới dưới 10 phút/lần; tổng công qua các lần dùng thấp hơn baseline kể cả thiết lập | Không tiết kiệm hoặc tăng lỗi; chưa có số liệu thì ghi chưa đánh giá |
 
 ## 8. Quyết định (CP6)
 
 ### 8.1. Bốn rủi ro
 
-| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
+Mức dưới đây là đánh giá sơ bộ của bản dự thảo, chưa phải kết quả chấm của nhóm.
+
+| Rủi ro | Câu hỏi | Mức độ rủi ro | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Có pain đáng giải quyết không? | Cao về độ bất định | Hai nguồn hồi tưởng trong nhóm; chưa có người ngoài nhóm và chưa so với checklist |
+| **Usability** | Người dùng hiểu cảnh báo và biết kiểm gì tiếp không? | TB | Chưa quan sát sử dụng; dễ hiểu nhầm pass là đủ rubric |
+| **Feasibility** | Kiểm đúng điều kiện được không? | TB | Rule phù hợp điều kiện rõ, nhưng chưa chuyển đề thật thành bộ rule hay chạy bộ mẫu |
+| **Viability** | Đáng công duy trì không? | TB | Chưa đo thiết lập/cập nhật; chưa có người nhận bảo trì hoặc dữ liệu chi phí |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Đề xuất để nhóm chốt: Not Yet đối với triển khai giải pháp.** Có thể tiếp tục kiểm chứng; chưa đủ bằng chứng cho Go và chưa có lý do kết luận No-Go.
 
-**Lý do:**
+**Lý do:** CP4 còn thiếu dữ liệu ngoài nhóm, chưa biết checklist đã đủ chưa và chưa đo lợi ích ròng của Rule.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Bước tiếp theo đề xuất:** Phỏng vấn 2–3 người ngoài nhóm; quan sát một lượt rà bài; thử checklist trước. Nếu phần lỗi quy cách thực sự lặp lại và còn pain, thử bộ rule nhỏ trên bản sao bài đã được phép dùng, không kết nối tự nộp.
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+**Nếu Go sau kiểm chứng:** Pilot giới hạn một loại bài và một phiên bản rubric; phân công người duyệt rule và người review chéo, ghi thời gian/lỗi trong 2 tuần.
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Nếu Not Yet:** Thu thập các dữ liệu trên và sửa baseline theo cùng định nghĩa trước khi chọn mức can thiệp.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Nếu No-Go sau kiểm chứng:** Giữ checklist + review chéo nếu pain thấp hoặc công bảo trì vượt lợi ích; không xây AI.
 
----
+**Ngưỡng dừng đề xuất, cần nhóm xác nhận:** Dừng tự động kiểm ngay nếu có sửa/nộp ngoài ý muốn hoặc lộ dữ liệu. Dừng bộ rule để sửa nếu bỏ sót bất kỳ lỗi quy cách cài sẵn trong bộ mẫu đã duyệt. Sau ít nhất 3 lượt thử, nếu tổng công thiết lập/cập nhật và rà bài không thấp hơn tổng baseline tương ứng, quay về checklist và đánh giá lại thay vì mở rộng.
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- Chưa có phỏng vấn/survey ngoài nhóm; không có kết quả xác nhận/phản bác để kết luận CP4 hoàn tất.
+- Baseline từ hồi tưởng, phạm vi đo Hưng và Kiệt khác nhau; không lấy trung bình hoặc suy rộng. Cần đo lặp lại theo cùng phạm vi.
+- Research xác nhận cơ chế công cụ, chưa chứng minh hiệu quả với bài nộp thực tế. Nhóm cần tự mở link và kiểm thử.
+- Các phần CP5–CP6 là dự thảo do AI hỗ trợ để nhóm phản biện; mục tiêu, rủi ro và Not Yet chưa phải quyết định đã được nhóm thông qua.
+- Hoàn thiện dữ liệu CP4 rồi tự chốt lại v0/v1, mức can thiệp, phân công và quyết định. Mỗi thành viên tự cập nhật đóng góp/reflection thật trong bài cá nhân và TEAM.md.
+- Không sửa báo cáo cá nhân của thành viên khác để đồng bộ; từng người tự xác nhận và sửa khi cần.
 
 ## 10. Tài liệu tham khảo
 
--
+**Nguồn nội bộ:**
+
+- [README — mục tiêu lab](../../README.md), [checkpoint](../../CHECKPOINTS.md), [rubric](../../RUBRIC.md), [worksheet](../../docs/01-worksheet.md).
+- [Đồng Ngọc Phúc — CP1/CP2](../individual/2A202603399_DongNgocPhuc.md).
+- [Dương Tuấn Hưng — CP1/CP2](../individual/2A202603416_DuongTuanHung.md).
+- [Nguyễn Tuấn Kiệt — CP1/CP2](../individual/2A202603417_NguyenTuanKiet.md).
+- [Trần Thị Lý — CP1/CP2](../individual/2A202603404_TranThiLy.md).
+
+**Nguồn chính thức đã được AI mở đọc ngày 09/11/2026; nhóm cần tự kiểm lại:**
+
+- GitHub Docs, [About tasklists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists) — checklist Markdown.
+- GitHub Docs, [Triggering a workflow](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow) — cơ chế chạy kiểm tra theo sự kiện/thủ công.
+- GitHub CLI, [gh pr checks](https://cli.github.com/manual/gh_pr_checks) — xem kết quả CI đã cấu hình trên pull request.
+
+**Ghi nhận hỗ trợ AI:** Tổng hợp card nguồn, đề xuất assumption map/kịch bản hỏi, research tài liệu và soạn dự thảo CP4–CP6. AI không thực hiện phỏng vấn, không đại diện người dùng, không xác nhận thay nhóm các điểm số hoặc quyết định. Nhóm phải đối chiếu và tự chốt nội dung trước khi nộp.
