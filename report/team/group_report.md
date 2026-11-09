@@ -102,11 +102,11 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **Phạm vi:** Kiểm tra bài nộp theo rubric/quy cách trước deadline. Tách hai loại yêu cầu: (1) quy cách xác định được như tên file, thư mục, file bắt buộc; (2) chất lượng nội dung cần đọc và đánh giá. Chưa kết luận một cách kiểm tra có thể xử lý cả hai.
 
-**Trạng thái:** Assumption map và kế hoạch dưới đây là bản đề xuất để nhóm xác nhận. Research tài liệu đã được AI mở và đọc ngày 09/11/2026; nhóm cần tự mở lại các link trước khi chốt. Chưa có phỏng vấn/survey ngoài nhóm, chưa thử nghiệm giải pháp. Không coi các số liệu cá nhân là kết quả kiểm chứng CP4.
+**Trạng thái:** CP4 đã được nhóm xác nhận chốt ngày 09/11/2026. Phúc xác nhận nhóm đồng ý assumption map, đã tự mở và kiểm tra cả 3 link research, và 5 phản hồi trong mẫu phân tích đến từ 5 người ngoài nhóm khác nhau. Đã đọc 6 lượt gửi Google Form ngày 09/11/2026; dùng 5 phản hồi đủ 9 câu, ghi riêng 1 lượt thiếu thông tin. Đã đủ số lượng tối thiểu của phương án survey; giới hạn ẩn danh và chọn mẫu được ghi ở mục 3.2. Chưa thử nghiệm giải pháp; không coi số liệu cá nhân là kết quả survey.
 
 ### 3.1. Assumption Map
 
-Thang điểm đề xuất: quan trọng 1 = ít ảnh hưởng, 5 = quyết định hướng làm; bằng chứng 1 = chưa có trực tiếp, 2 = có hồi tưởng trong nhóm, 3–5 cần bằng chứng ngoài nhóm và/hoặc quan sát, đo lặp lại. Điểm không phải kết quả bỏ phiếu đã diễn ra.
+Thang điểm của assumption map ban đầu, đã được nhóm đồng ý: quan trọng 1 = ít ảnh hưởng, 5 = quyết định hướng làm; bằng chứng 1 = chưa có trực tiếp, 2 = có hồi tưởng trong nhóm, 3–5 cần bằng chứng ngoài nhóm và/hoặc quan sát, đo lặp lại. Các điểm mô tả mức bằng chứng trước khảo sát; kết quả cập nhật sau khảo sát được ghi riêng ở mục 3.2, không thay lịch sử đánh giá ban đầu.
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
@@ -117,68 +117,66 @@ Thang điểm đề xuất: quan trọng 1 = ít ảnh hưởng, 5 = quyết đ�
 | 5 | Đề/rubric và bản bài nộp có sẵn, được phép sử dụng và có thể chuyển yêu cầu quy cách thành checklist/rule mà không hiểu sai. | Feasibility | 5 | 2 | Có — lấy một bộ đề và bài đã được phép chia sẻ; đối chiếu thủ công từng rule với nguồn. |
 | 6 | Chi phí thiết lập và cập nhật khi đề thay đổi thấp hơn thời gian tiết kiệm được; có người chịu trách nhiệm cập nhật. | Viability | 4 | 1 | Sau xác nhận pain — ghi thời gian thiết lập/cập nhật và tần suất dùng, chưa giả định công cụ miễn phí. |
 
-**Ưu tiên đề xuất:** #1, #2, #3 và #5. Chưa chọn AI; cần biết pain có phổ biến, loại lỗi nào chiếm ưu thế và giải pháp đơn giản đã đủ chưa.
+**Ưu tiên đã được nhóm đồng ý:** #1, #2, #3 và #5. Chưa chọn AI; cần biết pain có phổ biến, loại lỗi nào chiếm ưu thế và giải pháp đơn giản đã đủ chưa.
 
-**Giả định nhóm thực tế chọn kiểm chứng:** Chưa ghi nhận; nhóm bổ sung sau khi thống nhất.
+**Giả định đã được khảo sát đề cập:** #1 (thời gian/lỗi), #2 (loại yêu cầu/lỗi) và #3 (cách xử lý hiện tại, mức đủ dùng). #4–#6 chưa được kiểm chứng trực tiếp; xem kết luận mục 3.2.
 
 ### 3.2. Kiểm chứng
 
-**Chưa thực hiện. Kế hoạch đề xuất:** Phỏng vấn nhanh 2–3 sinh viên ngoài nhóm từng trực tiếp rà và nộp bài lab/đồ án; không phỏng vấn thành viên CharSiu thay cho người ngoài nhóm. Người thật hỏi người thật, không dùng AI đóng vai người dùng. Xin phép trước khi xem bài hoặc chụp bằng chứng; chỉ ghi vai trò, ngày, cách hỏi và dữ liệu đã ẩn danh.
+**Phương pháp:** Micro survey qua Google Forms, đọc kết quả ngày 09/11/2026. [Link khảo sát](https://docs.google.com/forms/d/e/1FAIpQLScsoUo8RwfKhHge_4if_1HmOSWEtgqTWVKZmOqQHeygJUSEKg/viewform?usp=header). Form 9 câu, không thu họ tên/email; đối tượng mời là sinh viên ngoài nhóm từng trực tiếp rà/nộp bài. Theo thông tin Phúc cung cấp, Hưng và Kiệt cũng tham gia hỏi/thu thập; không gán người hỏi cho từng phản hồi ẩn danh.
 
-**Hướng dẫn hỏi về hành vi đã xảy ra:**
+**Chọn mẫu phân tích:** Form có 6 lượt gửi. Dùng 5 lượt đầu đã trả lời đủ 9 câu; ghi riêng lượt thứ 6 lúc 12:54 ngày 09/11/2026 vì bỏ trống 3 câu về lỗi, cách kiểm và mức đủ dùng, thời gian ghi “Không nhớ”. Không xóa lượt này trên Form và không tính vào mẫu chính. Tiêu chí loại dựa trên độ đầy đủ, không dựa trên việc đồng ý hay phản bác pain. Phương án survey đạt ngưỡng số lượng tối thiểu 5 phản hồi đầy đủ. Phúc đã xác nhận 5 phản hồi phân tích là của 5 người ngoài nhóm khác nhau. Đây là xác nhận của nhóm, không phải khả năng xác minh danh tính của biểu mẫu; không công khai danh tính người trả lời.
 
-1. Lần gần nhất bạn trực tiếp kiểm tra và nộp bài nhóm là khi nào? Bài đó yêu cầu nộp những gì?
-2. Bạn đã kiểm tra theo thứ tự nào, dùng đề/rubric/checklist ở đâu? Có thể mô tả hoặc cho xem một ví dụ đã ẩn danh không?
-3. Bước nào mất thời gian nhất? Bạn có mốc tin nhắn, lịch sử sửa hoặc số đo để đối chiếu không?
-4. Lần gần nhất phát hiện thiếu/sai là lỗi gì? Phát hiện trước hay sau nộp, hậu quả thực tế ra sao?
-5. Bạn đã dùng checklist, template, script hoặc review chéo như thế nào? Cách đó giải quyết được gì và còn vướng gì?
-6. Có lần nào kiểm tra rất nhanh hoặc không gặp lỗi không? Điều gì khác ở lần đó?
+**Kết quả chính — n = 5 phản hồi đầy đủ:**
 
-Không hỏi “Bạn có muốn dùng công cụ này không?”. Không giới thiệu giải pháp trước khi thu thập trải nghiệm. Tín hiệu phản bác có thể là người dùng đã rà nhanh bằng checklist, lỗi chủ yếu ở nội dung hoặc quy cách thay đổi quá nhiều.
+| Nội dung | Kết quả | Giới hạn / diễn giải |
+|---|---|---|
+| Trải nghiệm rà/nộp | Cá nhân: 2/5; nhóm: 1/5; cả hai: 2/5; chưa từng: 0/5 | Đều tự khai có trải nghiệm; Phúc xác nhận 5 người ngoài nhóm khác nhau; mẫu gồm cả bài cá nhân và nhóm |
+| Bối cảnh gần nhất | Đêm qua, thứ Sáu tuần trước, tuần trước, hôm nay, thứ Năm tuần trước; đề cập link GitHub hoặc bài theo mẫu | Một phản hồi chỉ nêu thời điểm, không nói sản phẩm nộp |
+| Các mục đã kiểm, chọn nhiều | Tên file/thư mục: 5/5; file bắt buộc: 3/5; mục báo cáo: 4/5; chất lượng nội dung: 4/5; link/quyền repo: 2/5 | Đã trừ lựa chọn của lượt thứ 6 khỏi tổng Form. Không coi tỷ lệ chọn là tỷ lệ mắc lỗi |
+| Thời gian chỉ rà, chưa tính sửa/nộp | 15, 60, 30, 30, 60 phút; tổng 195 phút; trung bình 39 phút; trung vị 30 phút; khoảng 15–60 phút | “1 tiếng” đổi thành 60 phút; không ghép thứ tự danh sách tóm tắt thành hồ sơ cá nhân |
+| Cơ sở thời gian | 5/5 ước lượng theo trí nhớ | Chưa bấm giờ; không có số từng bước |
+| Bước khó | Kiểm chất lượng nội dung; đọc đề dài; đối chiếu file với định dạng; đọc tài liệu; đọc từng mục | Bước khó khác nhau; chưa xác nhận một bottleneck chung |
+| Lỗi đã gặp | 4/5 kể thiếu phần tính tay/ảnh, sai tên, sai định dạng hoặc thiếu file; 1/5 nói chưa thiếu/sai | Một trường hợp phát hiện trước nộp và trễ deadline; một trường hợp thiếu file sau nộp. Không tự gán thời điểm/hậu quả cho các câu còn lại |
+| Cách kiểm hiện tại, chọn nhiều | Checklist: 2/5; template: 0/5; đọc đề/đối chiếu thủ công: 3/5; review chéo: 1/5; script/công cụ: 3/5 | Chưa rõ công cụ cụ thể; không chứng minh tự động hóa hiện tại thất bại |
+| Mức đủ dùng | 3/5 đủ dùng; 1/5 đủ nhưng mất nhiều thời gian; 1/5 chưa đủ vì còn bỏ sót | Giữ nguyên bằng chứng phản bác nhu cầu giải pháp mới |
 
-**Bảng ghi kết quả phỏng vấn — điền trực tiếp tại đây:**
+**Câu trả lời nguyên văn tiêu biểu từ survey:**
 
-P01–P03 chỉ là mã chỗ trống, chưa phải số người đã phỏng vấn. Hỏi ít nhất 2 người ngoài nhóm; nếu chỉ hỏi 2 người, giữ P03 là chưa thực hiện hoặc xóa cột trước khi nộp. Không ghi họ tên hay thông tin liên hệ.
+- “Đủ nhưng mất quá nhiều thời gian”.
+- “Chưa đủ vì nhiều lúc vẫn còn check thiếu thông tin”.
+- “tạm thời chưa thiếu hay sai”.
+- “tôi cảm thấy đủ dùng”.
 
-| Thông tin | P01 | P02 | P03 (nếu có) |
+**Đối chiếu giả định:**
+
+| Giả định | Tín hiệu xác nhận | Tín hiệu phản bác / chưa biết | Kết luận |
 |---|---|---|---|
-| Trạng thái | Chưa thực hiện | Chưa thực hiện | Chưa thực hiện |
-| Vai trò / kinh nghiệm phụ trách nộp bài | | | |
-| Ngày và cách hỏi | | | |
-| Thành viên phỏng vấn | | | |
-| Lần nộp gần nhất: bối cảnh, sản phẩm phải nộp | | | |
-| Các bước rà bài thực tế, theo thứ tự | | | |
-| Phút từng bước; đo được hay ước lượng | | | |
-| Tổng thời gian và phạm vi tính (rà / sửa / chờ / nộp) | | | |
-| Bước khó nhất và lý do | | | |
-| Lỗi gần nhất; quy cách hay nội dung | | | |
-| Phát hiện trước/sau nộp và hậu quả thực tế | | | |
-| Cách xử lý hiện tại: checklist/template/script/review chéo | | | |
-| Cách hiện tại đã giải quyết được gì, còn vướng gì | | | |
-| Lần kiểm nhanh/không lỗi và điều khác biệt | | | |
-| Câu nói nguyên văn (nếu nhớ đúng; còn lại ghi diễn giải) | | | |
-| Bằng chứng được phép ghi lại, đã ẩn danh | | | |
-| Tín hiệu xác nhận pain | | | |
-| Tín hiệu phản bác / giới hạn | | | |
-| Điều chưa biết, cần hỏi lại | | | |
+| #1 — Rà bài có pain | 5 số thời gian từ 15–60 phút; 4 câu kể lỗi thực tế | 1 người chưa gặp lỗi; 3 người thấy cách hiện tại đủ | Pain có trong mẫu, không phổ quát; không suy rộng tỷ lệ ra toàn lớp |
+| #2 — Quy cách là phần cần xử lý | Có lỗi tên, định dạng, thiếu file; 5/5 có kiểm tên/file | 4/5 cũng kiểm chất lượng nội dung; không có thời gian từng bước | Có cơ sở thử phần quy cách, chưa chứng minh chiếm phần lớn thời gian |
+| #3 — Checklist/review chéo chưa đủ | 1 người nói còn thiếu, 1 người nói đủ nhưng tốn thời gian | 3 người nói đủ dùng; chưa thử so sánh các phương án | Không xác nhận giả định cho toàn bộ mẫu; phải so với cách hiện tại trước khi xây thêm |
+| #4 — Người dùng hiểu cảnh báo | Chưa có | Chưa thử mẫu cảnh báo | Chưa kiểm chứng, không gọi là đạt |
+| #5 — Có dữ liệu/rule dùng được | Có bối cảnh GitHub và bài theo mẫu | Chưa được xem bộ đề/bài được phép dùng | Cần lấy dữ liệu và duyệt từng rule |
+| #6 — Lợi ích vượt công thiết lập | Có thời gian rà để làm mốc tham khảo | Chưa đo thiết lập, bảo trì hoặc hiệu quả giải pháp | Chưa kiểm chứng |
 
-**Bảng kết luận sau phỏng vấn — chỉ điền khi có dữ liệu:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Phạm vi được tách thành kiểm quy cách (tên, file bắt buộc, định dạng) và kiểm chất lượng nội dung. Không dùng kết quả này để khẳng định một công cụ kiểm file giải quyết toàn rubric. Nhóm tập trung giảm công rà yêu cầu lặp lại cho người còn tốn thời gian hoặc bỏ sót, thay vì giả định mọi sinh viên cần giải pháp mới. Checklist/review chéo là phương án so sánh; Rule chỉ xử lý điều kiện rõ, chưa có bằng chứng cần AI. Trung vị 30 phút là thời gian chỉ rà trong survey; baseline 25 phút từ Kiệt gồm sửa/push nên không thay thế hoặc so sánh trực tiếp hai số này.
 
-| Giả định cần kiểm chứng | Bằng chứng xác nhận (mã người) | Bằng chứng phản bác (mã người) | Kết luận và giới hạn | Nhóm sửa gì / bước tiếp theo |
-|---|---|---|---|---|
-| #1 — Pain có ở người ngoài nhóm | | | Chưa đánh giá | |
-| #2 — Lỗi quy cách chiếm phần đáng kể | | | Chưa đánh giá | |
-| #3 — Checklist/review chéo chưa đủ | | | Chưa đánh giá | |
-| #5 — Có đề/bài được phép dùng và rule rõ | | | Chưa đánh giá | |
+**Phản hồi thứ 6 — lưu riêng, không dùng tính thống kê n=5:** Có trải nghiệm cả cá nhân/nhóm, kể lần nộp thảo luận nhóm ngày hôm trước, chọn đủ 5 mục kiểm tra, không nhớ thời gian, bước khó ghi “Thảo luận”; bỏ trống lỗi, cách kiểm và mức đủ dùng. Chưa đủ thông tin để kết luận pain.
 
-**Tổng hợp bằng chứng hiện có và khoảng trống:**
+**Ghi chú phỏng vấn P01 — nguồn bổ sung, không cộng vào n=5:**
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn |
-|---|---:|---|---|
-| CP1–CP2 của Hưng và Kiệt, nguồn nội bộ trước CP4 | 2 người | Có hồi tưởng về thời gian rà bài và lỗi bị trừ điểm. | Chưa xác minh ngoài nhóm; baseline và phạm vi tính thời gian khác nhau. Chưa biết checklist đã đủ chưa. |
-| Phỏng vấn ngoài nhóm ở CP4 | 0 | Chưa thu thập | Chưa thu thập; không được kết luận đã xác nhận pain. |
+| Thông tin | P01 |
+|---|---|
+| Vai trò | Sinh viên ngoài nhóm, từng trực tiếp rà/nộp lab nhóm |
+| Ngày / cách hỏi / người hỏi | 09/11/2026 / chat / Đồng Ngọc Phúc |
+| Sản phẩm | Báo cáo nhóm, báo cáo cá nhân, link GitHub trên LMS |
+| Quy trình và thời gian | Mở đề/rubric: 2 phút → kiểm và sửa: 15 phút → push và nộp: 3 phút; tổng 20 phút, ước lượng trí nhớ |
+| Bước khó | Đối chiếu các mục với rubric vì nhiều yêu cầu, dễ bỏ sót (diễn giải ghi chú) |
+| Lỗi, hậu quả, cách xử lý và tín hiệu phản bác | |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** Chưa có kết quả để ghi. Sau phỏng vấn, ghi rõ giả định nào được xác nhận/phản bác, phạm vi đổi gì và lý do. Nếu không có pain đủ mạnh hoặc checklist đã đủ, cân nhắc thu hẹp/đổi candidate hoặc No AI.
+P01 chưa hỏi đủ; chưa xác định có trùng người trả lời survey nên không cộng thành người thứ 6. CP4 dùng phương án survey, không coi P01 là một bộ phỏng vấn 2–3 người đã hoàn tất.
+
+**Giới hạn kiểm chứng:** Mẫu thuận tiện nhỏ gồm 5 người ngoài nhóm khác nhau theo xác nhận của Phúc; tự khai, không bấm giờ và không thu danh tính trong form; không kiểm tra được quan hệ nhân quả hay hiệu quả giải pháp. Dữ liệu nghiên cứu công cụ ở mục 3.3 là nguồn riêng, không thay cho bằng chứng người dùng. Không quyết định Go chỉ từ số lượt khảo sát.
 
 ### 3.3. Research giải pháp đã có
 
@@ -196,7 +194,7 @@ Ba pattern dưới đây là các bước có thể kết hợp, không phải b
 
 ## 4. Quy trình trước/sau (CP5)
 
-**Bản dự thảo để nhóm phản biện và tự chốt.** CP4 chưa có phỏng vấn ngoài nhóm; quy trình hiện tại lấy một nguồn cụ thể là Card #1 của Kiệt, không lấy trung bình với số liệu của Hưng. Mọi thời gian hiện tại là hồi tưởng; thời gian tương lai là mục tiêu, chưa phải kết quả thử nghiệm.
+**Bản dự thảo để nhóm phản biện và tự chốt.** CP4 đã có 5 phản hồi survey đầy đủ và P01 bổ sung; quy trình hiện tại lấy một nguồn cụ thể là Card #1 của Kiệt, không lấy trung bình với số liệu của Hưng. Mọi thời gian hiện tại là hồi tưởng; thời gian tương lai là mục tiêu, chưa phải kết quả thử nghiệm.
 
 ### 4.1. Quy trình hiện tại
 
@@ -334,7 +332,7 @@ Mức dưới đây là đánh giá sơ bộ của bản dự thảo, chưa ph�
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Có pain đáng giải quyết không? | Cao về độ bất định | Hai nguồn hồi tưởng trong nhóm; chưa có người ngoài nhóm và chưa so với checklist |
+| **Value** | Có pain đáng giải quyết không? | Cao về độ bất định | Hai nguồn hồi tưởng nội bộ và 5 survey đầy đủ; 3/5 thấy cách hiện tại đủ dùng, chưa thử so sánh checklist và chưa chứng minh lợi ích giải pháp |
 | **Usability** | Người dùng hiểu cảnh báo và biết kiểm gì tiếp không? | TB | Chưa quan sát sử dụng; dễ hiểu nhầm pass là đủ rubric |
 | **Feasibility** | Kiểm đúng điều kiện được không? | TB | Rule phù hợp điều kiện rõ, nhưng chưa chuyển đề thật thành bộ rule hay chạy bộ mẫu |
 | **Viability** | Đáng công duy trì không? | TB | Chưa đo thiết lập/cập nhật; chưa có người nhận bảo trì hoặc dữ liệu chi phí |
@@ -343,7 +341,7 @@ Mức dưới đây là đánh giá sơ bộ của bản dự thảo, chưa ph�
 
 **Đề xuất để nhóm chốt: Not Yet đối với triển khai giải pháp.** Có thể tiếp tục kiểm chứng; chưa đủ bằng chứng cho Go và chưa có lý do kết luận No-Go.
 
-**Lý do:** CP4 còn thiếu dữ liệu ngoài nhóm, chưa biết checklist đã đủ chưa và chưa đo lợi ích ròng của Rule.
+**Lý do:** CP4 có 5 phản hồi đầy đủ, trong đó 3 phản hồi nói cách hiện tại đủ dùng. Chưa thử đối chứng checklist, chưa xác minh hiệu quả giải pháp và chưa đo lợi ích ròng của Rule.
 
 **Bước tiếp theo đề xuất:** Phỏng vấn 2–3 người ngoài nhóm; quan sát một lượt rà bài; thử checklist trước. Nếu phần lỗi quy cách thực sự lặp lại và còn pain, thử bộ rule nhỏ trên bản sao bài đã được phép dùng, không kết nối tự nộp.
 
@@ -357,14 +355,16 @@ Mức dưới đây là đánh giá sơ bộ của bản dự thảo, chưa ph�
 
 ## 9. Hạn chế và hướng tiếp theo
 
-- Chưa có phỏng vấn/survey ngoài nhóm; không có kết quả xác nhận/phản bác để kết luận CP4 hoàn tất.
+- CP4 dùng 5 phản hồi survey đầy đủ trong 6 lượt gửi, giữ riêng lượt thiếu và P01. Đã đủ số lượng survey; vẫn có giới hạn chọn mẫu ẩn danh, hồi tưởng và chưa thử giải pháp.
 - Baseline từ hồi tưởng, phạm vi đo Hưng và Kiệt khác nhau; không lấy trung bình hoặc suy rộng. Cần đo lặp lại theo cùng phạm vi.
-- Research xác nhận cơ chế công cụ, chưa chứng minh hiệu quả với bài nộp thực tế. Nhóm cần tự mở link và kiểm thử.
-- Các phần CP5–CP6 là dự thảo do AI hỗ trợ để nhóm phản biện; mục tiêu, rủi ro và Not Yet chưa phải quyết định đã được nhóm thông qua.
-- Hoàn thiện dữ liệu CP4 rồi tự chốt lại v0/v1, mức can thiệp, phân công và quyết định. Mỗi thành viên tự cập nhật đóng góp/reflection thật trong bài cá nhân và TEAM.md.
+- Nhóm đã tự mở và kiểm tra 3 link research. Research xác nhận cơ chế công cụ, chưa chứng minh hiệu quả với bài nộp thực tế; kiểm thử giải pháp là bước tiếp theo.
+- CP4 đã được nhóm chốt; các phần CP5–CP6 vẫn là dự thảo do AI hỗ trợ để nhóm phản biện; mục tiêu, rủi ro và Not Yet chưa phải quyết định đã được nhóm thông qua.
+- Dựa trên CP4 đã chốt, nhóm tiếp tục tự chốt v0/v1, mức can thiệp, phân công và quyết định. Mỗi thành viên tự cập nhật đóng góp/reflection thật trong bài cá nhân và TEAM.md.
 - Không sửa báo cáo cá nhân của thành viên khác để đồng bộ; từng người tự xác nhận và sửa khi cần.
 
 ## 10. Tài liệu tham khảo
+
+- Dữ liệu sơ cấp: [Google Form khảo sát cách kiểm tra bài lab](https://docs.google.com/forms/d/e/1FAIpQLScsoUo8RwfKhHge_4if_1HmOSWEtgqTWVKZmOqQHeygJUSEKg/viewform?usp=header), kết quả được đọc qua tài khoản quản lý ngày 09/11/2026: 6 lượt gửi, mẫu phân tích 5 phản hồi đủ; phương pháp chọn mẫu và tổng hợp ở mục 3.2. Link công khai là link trả lời, không công khai câu trả lời cá nhân.
 
 **Nguồn nội bộ:**
 
@@ -374,10 +374,10 @@ Mức dưới đây là đánh giá sơ bộ của bản dự thảo, chưa ph�
 - [Nguyễn Tuấn Kiệt — CP1/CP2](../individual/2A202603417_NguyenTuanKiet.md).
 - [Trần Thị Lý — CP1/CP2](../individual/2A202603404_TranThiLy.md).
 
-**Nguồn chính thức đã được AI mở đọc ngày 09/11/2026; nhóm cần tự kiểm lại:**
+**Nguồn chính thức đã được AI mở đọc và nhóm xác nhận tự mở, kiểm tra ngày 09/11/2026:**
 
 - GitHub Docs, [About tasklists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists) — checklist Markdown.
 - GitHub Docs, [Triggering a workflow](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow) — cơ chế chạy kiểm tra theo sự kiện/thủ công.
 - GitHub CLI, [gh pr checks](https://cli.github.com/manual/gh_pr_checks) — xem kết quả CI đã cấu hình trên pull request.
 
-**Ghi nhận hỗ trợ AI:** Tổng hợp card nguồn, đề xuất assumption map/kịch bản hỏi, research tài liệu và soạn dự thảo CP4–CP6. AI không thực hiện phỏng vấn, không đại diện người dùng, không xác nhận thay nhóm các điểm số hoặc quyết định. Nhóm phải đối chiếu và tự chốt nội dung trước khi nộp.
+**Ghi nhận hỗ trợ AI:** Tổng hợp card nguồn, đề xuất assumption map/kịch bản hỏi, research tài liệu và soạn dự thảo CP4–CP6. AI không thực hiện phỏng vấn, không đại diện người dùng, không xác nhận thay nhóm các điểm số hoặc quyết định. Nhóm đã xác nhận CP4, assumption map và 3 link research ngày 09/11/2026; các phần CP5–CP6 cần tiếp tục được nhóm đối chiếu và tự chốt trước khi nộp.
