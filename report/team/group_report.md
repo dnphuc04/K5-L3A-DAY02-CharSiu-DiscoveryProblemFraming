@@ -136,19 +136,40 @@ Thang điểm đề xuất: quan trọng 1 = ít ảnh hưởng, 5 = quyết đ�
 
 Không hỏi “Bạn có muốn dùng công cụ này không?”. Không giới thiệu giải pháp trước khi thu thập trải nghiệm. Tín hiệu phản bác có thể là người dùng đã rà nhanh bằng checklist, lỗi chủ yếu ở nội dung hoặc quy cách thay đổi quá nhiều.
 
-**Mẫu Interview Snapshot — sao chép một bảng cho mỗi người được hỏi:**
+**Bảng ghi kết quả phỏng vấn — điền trực tiếp tại đây:**
 
-| Trường | Nội dung |
-|---|---|
-| Mã / vai trò người được hỏi | Chưa thu thập |
-| Ngày, cách hỏi, người phỏng vấn | Chưa thu thập |
-| Câu nói đáng nhớ nhất (nguyên văn) | Chưa thu thập; không tự dựng lời nói |
-| Lần gần nhất: chuyện gì xảy ra? | Chưa thu thập |
-| Quy trình và cách xử lý hiện tại | Chưa thu thập |
-| Thời gian, tần suất, bằng chứng | Chưa thu thập; tách thời gian rà, sửa, chờ và nộp |
-| Loại lỗi thực tế | Chưa thu thập; tách quy cách với chất lượng nội dung |
-| Tín hiệu xác nhận / phản bác | Chưa thu thập |
-| Insight và giới hạn suy luận | Chưa thu thập |
+P01–P03 chỉ là mã chỗ trống, chưa phải số người đã phỏng vấn. Hỏi ít nhất 2 người ngoài nhóm; nếu chỉ hỏi 2 người, giữ P03 là chưa thực hiện hoặc xóa cột trước khi nộp. Không ghi họ tên hay thông tin liên hệ.
+
+| Thông tin | P01 | P02 | P03 (nếu có) |
+|---|---|---|---|
+| Trạng thái | Chưa thực hiện | Chưa thực hiện | Chưa thực hiện |
+| Vai trò / kinh nghiệm phụ trách nộp bài | | | |
+| Ngày và cách hỏi | | | |
+| Thành viên phỏng vấn | | | |
+| Lần nộp gần nhất: bối cảnh, sản phẩm phải nộp | | | |
+| Các bước rà bài thực tế, theo thứ tự | | | |
+| Phút từng bước; đo được hay ước lượng | | | |
+| Tổng thời gian và phạm vi tính (rà / sửa / chờ / nộp) | | | |
+| Bước khó nhất và lý do | | | |
+| Lỗi gần nhất; quy cách hay nội dung | | | |
+| Phát hiện trước/sau nộp và hậu quả thực tế | | | |
+| Cách xử lý hiện tại: checklist/template/script/review chéo | | | |
+| Cách hiện tại đã giải quyết được gì, còn vướng gì | | | |
+| Lần kiểm nhanh/không lỗi và điều khác biệt | | | |
+| Câu nói nguyên văn (nếu nhớ đúng; còn lại ghi diễn giải) | | | |
+| Bằng chứng được phép ghi lại, đã ẩn danh | | | |
+| Tín hiệu xác nhận pain | | | |
+| Tín hiệu phản bác / giới hạn | | | |
+| Điều chưa biết, cần hỏi lại | | | |
+
+**Bảng kết luận sau phỏng vấn — chỉ điền khi có dữ liệu:**
+
+| Giả định cần kiểm chứng | Bằng chứng xác nhận (mã người) | Bằng chứng phản bác (mã người) | Kết luận và giới hạn | Nhóm sửa gì / bước tiếp theo |
+|---|---|---|---|---|
+| #1 — Pain có ở người ngoài nhóm | | | Chưa đánh giá | |
+| #2 — Lỗi quy cách chiếm phần đáng kể | | | Chưa đánh giá | |
+| #3 — Checklist/review chéo chưa đủ | | | Chưa đánh giá | |
+| #5 — Có đề/bài được phép dùng và rule rõ | | | Chưa đánh giá | |
 
 **Tổng hợp bằng chứng hiện có và khoảng trống:**
 
