@@ -176,18 +176,20 @@ Quy trình nháp hiện tại:
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
+Nguồn đối chiếu: [báo cáo nhóm, mục 2.1](../team/group_report.md#21-pitch). Các dòng dưới tổng hợp nội dung đang được ghi trong báo cáo nhóm; kết quả phản biện và thay đổi cá nhân chỉ bổ sung khi có thông tin thực tế.
+
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Theo bảng pitch nhóm mục 2.1, các dòng 1–3 ghi nhận 3 card của tôi: xác định thứ tự làm lab, chốt lịch họp và quên đồ khi đi học. Tôi đã chọn Card #1 để pitch. | Nhóm chọn kiểm bài nộp theo rubric/quy cách (#5 + #7), không chọn Card #1 của tôi; câu hỏi được lưu tại bảng pitch. Chưa ghi nhận phản hồi cụ thể làm tôi sửa card sau buổi pitch. |
+| Phản biện bài của bạn khác | Theo bảng pitch nhóm: với Hưng #1, “Vì sao nhóm chưa chốt người phụ trách và deadline ngay trong lúc họp, thay vì phải nghe lại sau đó?”; với Kiệt #3, “Nếu ghim FAQ và dùng bộ lọc tìm kiếm sẵn có, những trường hợp nào vẫn không tìm được câu trả lời?”; với Lý #2, “Bạn kiểm tra thế nào để CV sau chỉnh sửa phù hợp hơn nhưng vẫn phản ánh đúng năng lực, không phóng đại kinh nghiệm?” | Báo cáo nhóm chưa ghi câu trả lời hoặc thay đổi sau các câu hỏi này; cần bổ sung từ thảo luận thực tế. |
+| Nhận phản biện | Theo bảng pitch nhóm: Kiệt hỏi Card #1 “Nếu dùng checklist theo thứ tự, khó khăn nào vẫn còn khiến bạn chưa biết bắt đầu từ đâu?”; Lý hỏi Card #2 “Nếu nghẽn chủ yếu ở chờ phản hồi, công cụ đối chiếu lịch giúp được gì khi thành viên chưa trả lời?”; Hưng hỏi Card #3 “Bạn đã thử kiểm tra ba món trước khi rời nhà chưa, và nếu đã thử thì vì sao vẫn quên?” | Tôi đã sửa gì: chưa có thông tin về phản hồi và thay đổi sau thảo luận; cần tự bổ sung theo trải nghiệm thực tế. |
+| Gom cluster / cây OST | Tôi hỗ trợ tổng hợp bảng 12 card; phần cluster/OST nằm trong báo cáo nhóm mục 2.2–2.3. Chưa có ghi chú về góp ý trực tiếp riêng của tôi ở bước này. | Không nhận toàn bộ phần hội tụ là đóng góp cá nhân. |
+| Chọn candidate problem | Tôi dùng kết luận CP3 trong báo cáo nhóm làm cơ sở tiếp tục kiểm chứng và tổng hợp báo cáo. | Bài toán chung là kiểm bài nộp theo rubric/quy cách; không tự ghi điểm chấm hoặc ý kiến bỏ phiếu chưa được cung cấp. |
+| Kiểm chứng / research | Tôi hỏi P01 qua chat ngày 09/11/2026, cung cấp ghi chú; nhờ AI hỗ trợ tạo Form 9 câu, tổng hợp kết quả. Tôi xác nhận 5 người ngoài nhóm khác nhau, nhóm đã kiểm 3 nguồn và đồng ý assumption map. | CP4 phân tích 5 phản hồi đủ trong 6 lượt gửi; 3/5 đủ dùng là tín hiệu phản bác được giữ. P01 không cộng vào survey; không coi ảnh/giá trị hồi tưởng là số bấm giờ. |
+| Quy trình nhóm | Tôi phối hợp biên tập bằng AI từ quy trình Kiệt và dữ liệu CP4, yêu cầu cập nhật báo cáo. | Tách baseline 25 phút gồm sửa/push khỏi trung vị 30 phút chỉ rà; quy trình tương lai có review chéo và fallback. |
+| Problem Statement | Tôi nhờ AI hỗ trợ cấu trúc v0/v1 và rà tính nhất quán theo CP4; xác nhận mục tiêu nhóm đã chọn. | Giới hạn kiểm quy cách và nội dung; mục tiêu rà ≤20 phút, chưa khẳng định đạt. |
+| Mức can thiệp AI | Tôi xác nhận nhóm đồng ý No AI — checklist + review chéo. | Rule/Workflow/Agent chưa cần triển khai; việc dùng AI hỗ trợ viết báo cáo khác với mức can thiệp của giải pháp. |
+| Quyết định | Tôi xác nhận nhóm đồng ý Not Yet đối với triển khai/mở rộng tự động. | Báo cáo có lý do, bước tiếp theo và ngưỡng dừng; pilot chưa thực hiện. |
 
 ---
 
@@ -197,10 +199,10 @@ Quy trình nháp hiện tại:
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý tình huống để đối chiếu, hỏi thêm thông tin và hỗ trợ viết Job Story, tổng hợp bảng. | Giúp cấu trúc trải nghiệm và làm rõ dấu hiệu thật. | Ban đầu gọi việc quên mang đồ là tìm đồ, chưa sát trải nghiệm. | Tôi cung cấp chi tiết quên đồ và phải quay lại lấy; nội dung được chỉnh theo thông tin này. |
 | CP2 Problem Card | Nhờ AI hướng dẫn chọn candidate, cấu trúc 3 card, đề xuất metric và phương án; phản biện và rà soát tính nhất quán. | Giúp tách thời gian chờ và thao tác, tránh tính trùng 5 phút quay lại lấy đồ, và ghi rõ bottleneck giả định của Card #1. | AI từng coi phần lớn thời gian Card #1 là đọc lại khi chưa có số liệu từng bước; một số ghi chú chưa được cập nhật sau khi tôi bổ sung dữ liệu. | Tôi làm rõ khó khăn cốt lõi, cung cấp thời gian từng bước, sửa lượt đọc đầu thành 15 phút, xác nhận 5 phút Card #3 gồm cả hai chặng và đồng ý 3 mục tiêu. Báo cáo đã cập nhật; thời gian vẫn là ước lượng, mục tiêu chưa thử nghiệm. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Nhờ AI đọc tài liệu chính thức, phân tích 3 pattern và tổng hợp survey; hỗ trợ tạo Form. | Tổ chức nguồn, số đếm, tín hiệu xác nhận/phản bác và dữ liệu thiếu. | AI không thể suy ra người ngoài nhóm hay độc lập từ Form ẩn danh; ban đầu mới có 4 phản hồi nên chưa đủ mẫu. | Tôi xác nhận 5 người ngoài nhóm khác nhau, nhóm tự kiểm nguồn; giữ 5 phản hồi đủ và ghi riêng lượt thứ 6 thiếu. |
+| CP5 Quy trình | Nhờ AI tổng hợp sơ đồ hiện tại/tương lai, bảng before/after và fallback. | Tách actor, bước kiểm, thời gian và phạm vi. | Bản đầu dễ so mục tiêu toàn quy trình 25 phút với thời gian chỉ rà của survey. | Tôi tiếp tục cung cấp xác nhận nhóm; báo cáo tách hai nguồn và dùng trung vị 30 phút chỉ rà làm mốc hồi tưởng. |
+| CP5–6 Problem Statement | Nhờ AI cấu trúc v0/v1, đề xuất tiêu chí và phản biện metric. | Làm rõ baseline, target, cách đo, boundary và trách nhiệm. | Mục tiêu ban đầu dưới 10 phút chưa có cơ sở thử nghiệm; AI không thay nhóm chốt. | Tôi xác nhận nhóm đồng ý mục tiêu rà tối đa 20 phút; giữ số đó là mục tiêu, chưa là kết quả. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI so sánh 4 mức, tổng hợp 4 rủi ro và phương án Not Yet từ dữ liệu. | Giữ No AI là phương án đơn giản và nêu ngưỡng dừng. | Số survey không chứng minh hiệu quả giải pháp; kế hoạch không phải pilot đã chạy. | Tôi xác nhận nhóm đồng ý No AI, ≤20 phút và Not Yet; không ghi đã thử nghiệm hoặc phân công đích danh khi chưa có. |
 
 ---
 
@@ -210,17 +212,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Mình nhận ra nhiều bạn cũng gặp khó khăn khi đối chiếu bài với yêu cầu. Các card giúp mình hiểu cần mô tả rõ quy trình, bước nghẽn và số liệu, chứ không chỉ nói chung là mất thời gian.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có, ban đầu nhóm nghĩ đến dùng AI để kiểm bài theo rubric. Sau khảo sát, thấy nhiều người vẫn đủ dùng với cách hiện tại nên nhóm chọn checklist và review chéo trước.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Ban đầu mình nghĩ cần AI để kiểm bài, nhưng khi nhóm phản biện rằng checklist có thể đã đủ và khảo sát cũng cho thấy nhiều người đủ dùng, mình đồng ý thử No AI trước.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Mình bất ngờ vì 3/5 người thấy cách kiểm bài hiện tại đã đủ dùng. Trước đó mình nghĩ đa số sẽ cần công cụ hỗ trợ, nhưng khảo sát cho thấy chưa cần dùng AI ngay.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Mình thấy khó nhất là success metric, vì phải phân biệt thời gian chỉ rà bài với thời gian sửa và nộp, rồi đặt mục tiêu đo được mà chưa có kết quả thử nghiệm.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, mình sẽ đo thời gian từng bước và khảo sát sớm hơn. Mình sẽ phản biện kỹ hơn xem checklist đã đủ chưa trước khi chọn AI.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Nhóm mình gặp vấn đề rà bài dễ bỏ sót. Hiện phải đọc đề và đối chiếu rubric thủ công. Mục tiêu là rà tối đa 20 phút. Người nộp vẫn tự quyết định. Nhóm chọn No AI, dùng checklist và review chéo. Quyết định Not Yet vì chưa thử nghiệm.
 
 ---
 
