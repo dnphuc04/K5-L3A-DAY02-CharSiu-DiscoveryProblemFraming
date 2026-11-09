@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Đồng Ngọc Phúc | 2A202603399 | Tổng hợp báo cáo, hỗ trợ kiểm chứng/research và rà tính nhất quán | dnphuc04 |
+| 1 | Đồng Ngọc Phúc | 2A202603399 | Tổng hợp báo cáo, hỗ trợ kiểm chứng/research và rà tính nhất quán | dnphuc04 | 
 | 2 | Dương Tuấn Hùng | 2A202603416 | Phụ trách bảng pitch (CP3), quy trình trước/sau (CP5), hỗ trợ kiểm chứng và research | hungduong1127ne |
 | 3 | Nguyễn Tuấn Kiệt | 2A202603417 | Research giải pháp đã có (CP4), phản biện card, xác nhận quyết định CP6 | kite1143 |
-| 4 | | | | |
+| 4 | Trần Thị Lý | 2A202603404 | Biên tập Problem Statement (CP5, v0, v1), hỗ trợ kiểm chứng/research, rà soát mức can thiệp AI | lytrann236 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -127,3 +127,30 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 1. **Research công cụ không thay được bằng chứng người dùng:** 3 trang tài liệu chính thức chỉ nói công cụ làm được gì, không nói pain có phổ biến hay không; việc đó phải hỏi người thật.
 2. **Bottleneck phải là giả định cho tới khi đo:** survey cho thấy mỗi người kể một bước khó khác nhau, nên không có bước nghẽn chung để tối ưu như card ban đầu của mình giả định.
 3. **Giữ cả tín hiệu phản bác:** 3/5 người nói cách kiểm hiện tại đủ dùng là lý do nhóm dừng ở No AI và Not Yet, thay vì đi tìm lý do để dùng AI.
+
+### TranThiLy-2A202603404
+
+**Phần việc phụ trách:**
+- **CP5 — Problem Statement v0:** phụ trách phối hợp biên tập bản tổng hợp Problem Statement v0, rà soát cấu trúc 6 trường và đảm bảo không coi mục tiêu là kết quả.
+- **CP6 — Mức can thiệp + Problem Statement v1:** phối hợp rà soát ma trận mức can thiệp AI và hoàn thiện Problem Statement v1, xác định boundary và tiêu chí đánh giá cho phương án No AI.
+- **CP4 — Kiểm chứng & Research:** hỗ trợ rà soát 3 nguồn research công cụ kỹ thuật và tham gia đối chiếu dữ liệu khảo sát survey.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+- **CP1–CP2:** Pitch 3 card cá nhân liên quan đến quá trình tìm việc (đọc/đối chiếu JD, chỉnh sửa CV theo JD và chuẩn bị phỏng vấn); đóng góp 3 candidate thuộc nhóm vấn đề đối chiếu yêu cầu với năng lực và tổng hợp thông tin.
+- **CP3:** Đặt 3 câu hỏi phản biện chéo làm rõ điểm nghẽn và bằng chứng cho Phúc, Hưng, Kiệt ở Mục 2.1. Phân loại 3 card cá nhân vào Cluster A (đối chiếu yêu cầu với hiện trạng), Cluster C (tạo/chỉnh nội dung theo yêu cầu) và Cluster B (tổng hợp nhiều nguồn); cùng nhóm chốt chọn Candidate A (35/35).
+- **CP4:** Tham gia rà soát kết quả survey (n=5) và 3 nguồn research tài liệu chính thức (`tasklists`, `trigger workflow`, `gh pr checks`); phân biệt rõ ràng giữa thông tin tính năng từ tài liệu công cụ với bằng chứng kiểm chứng thực tế từ người dùng.
+- **CP5:** Phụ trách biên tập **Problem Statement v0**, làm rõ actor, impact, bottleneck giả định và success metric. Rà soát để ghi nhận baseline là số liệu hồi tưởng (trung vị 30 phút theo khảo sát), target là mục tiêu pilot (tối đa 20 phút/lần).
+- **CP6:** Phối hợp hoàn thiện **Problem Statement v1**, xác định rõ boundary (không để AI tự chấm, tự sửa hay tự nộp bài; con người giữ toàn quyền quyết định) và đưa AI intervention point về "Không có". Cùng nhóm thống nhất chọn phương án **No AI (checklist Markdown có nguồn + review chéo)** và chốt quyết định **Not Yet** đối với việc triển khai/mở rộng tự động, yêu cầu pilot tối thiểu 3 bài trong 2 tuần trước khi xem xét Go.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+- [Báo cáo nhóm — mục 2.1](report/team/group_report.md#21-pitch): 3 card cá nhân của mình ở dòng 10–12 và 3 câu hỏi phản biện mình đặt.
+- [Báo cáo nhóm — mục 2.3](report/team/group_report.md#23-cây-vấn-đề-ost): cây OST và kết quả gom cluster A, B, C.
+- [Báo cáo nhóm — mục 5](report/team/group_report.md#5-problem-statement-v0-cp5): Problem Statement v0 với 6 trường đầy đủ.
+- [Báo cáo nhóm — mục 7](report/team/group_report.md#7-problem-statement-v1--tiêu-chí-đánh-giá-cp6): Problem Statement v1, boundary và tiêu chí pilot No AI.
+- [Báo cáo nhóm — mục 8](report/team/group_report.md#8-quyết-định-cp6): 4 rủi ro và quyết định Not Yet.
+- [Báo cáo cá nhân](report/individual/2A202603404_TranThiLy.md): mục 2–6.
+- Commit `b3e8a1f`: cập nhật báo cáo cá nhân; `770b93c`: chốt báo cáo nhóm và TEAM.md.
+
+**Điều mình học được từ phần nhóm:**
+1. **Phân biệt rành rọt giữa giả định, mục tiêu và kết quả đã kiểm chứng:** Khi viết Problem Statement, mình nhận ra không được nhầm lẫn số liệu hồi tưởng từ survey (trung vị 30 phút) hay mục tiêu đặt ra cho pilot (tối đa 20 phút/lần) với một kết quả đã chứng minh. Bottleneck cũng chỉ là một giả định cho tới khi đo lường thực tế từng bước.
+2. **Kỷ luật trong việc lựa chọn giải pháp đơn giản nhất:** Dù ban đầu các ý tưởng cá nhân và gợi ý từ AI đều hướng về tự động hóa hoặc AI Agent, việc nhóm giữ nguyên tắc "No AI làm baseline" và đặt boundary rõ ràng giúp giải quyết bài toán một cách thực tế, tránh phức tạp hóa vấn đề khi chưa có bằng chứng đủ mạnh.
