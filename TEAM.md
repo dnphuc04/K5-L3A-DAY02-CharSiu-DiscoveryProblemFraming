@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Đồng Ngọc Phúc | 2A202603399 | Tổng hợp báo cáo, hỗ trợ kiểm chứng/research và rà tính nhất quán | dnphuc04 | 
-| 2 | Dương Tuấn Hùng | 2A202603416 | Phụ trách bảng pitch (CP3), quy trình trước/sau (CP5), hỗ trợ kiểm chứng và research | hungduong1127ne |
+| 2 | Dương Tuấn Hưng | 2A202603416 | Phụ trách bảng pitch (CP3), quy trình trước/sau (CP5), hỗ trợ kiểm chứng và research | hunglun2711 |
 | 3 | Nguyễn Tuấn Kiệt | 2A202603417 | Research giải pháp đã có (CP4), phản biện card, xác nhận quyết định CP6 | kite1143 |
 | 4 | Trần Thị Lý | 2A202603404 | Biên tập Problem Statement (CP5, v0, v1), hỗ trợ kiểm chứng/research, rà soát mức can thiệp AI | lytrann236 |
 
