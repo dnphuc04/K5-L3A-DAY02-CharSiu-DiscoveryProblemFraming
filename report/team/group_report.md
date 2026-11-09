@@ -127,6 +127,10 @@ Thang điểm của assumption map ban đầu, đã được nhóm đồng ý: q
 
 **Chọn mẫu phân tích:** Form có 6 lượt gửi. Dùng 5 lượt đầu đã trả lời đủ 9 câu; ghi riêng lượt thứ 6 lúc 12:54 ngày 09/11/2026 vì bỏ trống 3 câu về lỗi, cách kiểm và mức đủ dùng, thời gian ghi “Không nhớ”. Không xóa lượt này trên Form và không tính vào mẫu chính. Tiêu chí loại dựa trên độ đầy đủ, không dựa trên việc đồng ý hay phản bác pain. Phương án survey đạt ngưỡng số lượng tối thiểu 5 phản hồi đầy đủ. Phúc đã xác nhận 5 phản hồi phân tích là của 5 người ngoài nhóm khác nhau. Đây là xác nhận của nhóm, không phải khả năng xác minh danh tính của biểu mẫu; không công khai danh tính người trả lời.
 
+**Ảnh bằng chứng khảo sát:** Ảnh chụp tổng hợp Google Form có 6 lượt gửi; một số câu chỉ có 5 câu trả lời. Bảng phân tích bên dưới dùng 5 phản hồi đầy đủ, đã loại lượt thứ 6 theo tiêu chí ở trên; vì vậy số đếm trong biểu đồ 6 lượt có thể khác bảng n=5. Qua kiểm tra ảnh không thấy họ tên, email, số điện thoại hoặc thông tin nội bộ của người trả lời.
+
+![Kết quả Google Form: 6 lượt gửi, phân tích 5 phản hồi đầy đủ](../assets/cp4-survey-result.png)
+
 **Kết quả chính — n = 5 phản hồi đầy đủ:**
 
 | Nội dung | Kết quả | Giới hạn / diễn giải |
