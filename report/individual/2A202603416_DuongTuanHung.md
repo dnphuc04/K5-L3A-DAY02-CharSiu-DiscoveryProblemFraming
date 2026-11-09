@@ -7,10 +7,10 @@
 ## 1. Thông tin học viên
 
 - Họ tên: Dương Tuấn Hưng
-- MSSV:2A202603416
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:CharSiu
-- Link repo nhóm:https://github.com/dnphuc04/K5-L3A-DAY02-CharSiu-DiscoveryProblemFraming.git
+- MSSV: 2A202603416
+- Email trường: 26ai.hungdt@vinuni.edu.vn
+- Tên nhóm: CharSiu
+- Link repo nhóm: https://github.com/dnphuc04/K5-L3A-DAY02-CharSiu-DiscoveryProblemFraming.git
 
 ---
 
@@ -141,16 +141,16 @@ Tổng thời gian lọc tài liệu: ~3 tiếng.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Pitch Card #1 (Tổng hợp biên bản & task sau họp nhóm) và Card #2 (Kiểm tra quy cách nộp bài). | Nhóm thấy bài toán #1 rất thiết thực và có dữ liệu đầu vào cụ thể, được đưa vào shortlist chấm điểm. |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: *"Bạn đề xuất làm bot tự động trả lời thắc mắc đồ án cho sinh viên, nhưng tài liệu môn học thay đổi theo từng kỳ và câu hỏi của thầy cô thường không cố định trong giáo trình, vậy bot lấy tri thức chuẩn từ đâu để tránh ảo giác (hallucination)?"* | Bạn trong nhóm thừa nhận rủi ro dữ liệu không chuẩn hóa và đồng ý hạ mức ưu tiên của đề tài chatbot hỏi đáp xuống. |
-| Nhận phản biện | Câu hỏi tôi nhận được: *"Biên bản họp nhóm thường có nhiều tiếng lóng, nói đùa, hoặc nhiều người cùng nói chen ngang làm transcript bị nhiễu, AI có phân biệt được đâu là task thật không?"* | Tôi đã sửa gì: Bổ sung cơ chế Human-in-the-loop (con người duyệt lại) trong quy trình tương lai; AI chỉ trích xuất bản nháp (draft suggestion), thư ký phải rà soát và xác nhận trước khi phát hành. |
-| Gom cluster / cây OST | Tham gia phân loại 12 candidate của cả nhóm thành 3 cluster chính: Quản trị nhóm & Giao tiếp; Hỗ trợ học tập cá nhân; Kiểm tra tuân thủ quy trình. | Nhóm chọn outcome chung ở gốc: "Tối ưu hóa hiệu suất làm việc nhóm và giảm thiểu thời gian hành chính vô ích trong đồ án sinh viên". |
-| Chọn candidate problem | Cùng chấm điểm 3 candidate trong shortlist theo 7 tiêu chí. | Chốt chọn bài toán: "Tối ưu hóa quy trình tổng hợp biên bản họp và trích xuất action items cho nhóm đồ án". |
-| Kiểm chứng / research | Đảm nhận phần Research 3 công cụ giải pháp tương tự trên thị trường (Otter.ai, Fireflies.ai, Fathom) và phân tích khoảng trống đối với tiếng Việt/sinh viên. | Chỉ ra bài học: Các công cụ toàn cầu đắt tiền và nhận diện tiếng Việt còn hạn chế trong việc gán đúng tên thành viên trong nhóm. |
-| Quy trình nhóm | Tham gia vẽ sơ đồ quy trình hiện tại và quy trình tương lai (xác định rõ các bước Rule, AI và bước kiểm tra của con người). | Xác định chính xác bottleneck nằm ở bước tổng hợp và đối chiếu người - việc (chiếm 25/50 phút xử lý). |
-| Problem Statement | Cùng nhóm xây dựng bản Problem Statement v0 và sau đó nâng cấp lên v1 có bổ sung ranh giới an toàn (boundary). | Đưa chỉ số đo lường cụ thể: giảm thời gian từ 50 phút xuống dưới 10 phút/buổi họp. |
-| Mức can thiệp AI | Thảo luận và kiên quyết chọn mức Workflow thay vì Agent. | Thuyết phục nhóm không cần đến Agent tự hành vì quy trình xử lý biên bản là tuần tự cố định và rủi ro AI tự quyết là không an toàn. |
-| Quyết định | Tham gia chấm điểm 4 khía cạnh rủi ro (Value, Usability, Feasibility, Viability) và thiết lập ngưỡng dừng. | Đồng thuận ra quyết định: **Go (triển khai pilot nhỏ)** với ngưỡng dừng rõ ràng sau 2 tuần thử nghiệm. |
+| Pitch Problem Card | Pitch cả 3 card của mình, nhấn mạnh Card #1 (Biên bản họp) và Card #2 (Kiểm tra quy cách nộp bài). | Nhóm nhận thấy Card #2 của tôi và Card #1 của Kiệt cùng bản chất là rà soát bài nộp trước deadline và gộp thành Candidate A. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>- Hỏi Phúc (Card #3 - Quên đồ): *"Bạn đã thử kiểm tra ba món trước khi rời nhà chưa, và nếu đã thử thì vì sao vẫn quên?"*<br>- Hỏi Kiệt (Card #2 - Tài liệu ôn thi): *"Trong tổng thời gian đã ghi, phần nào là tổng hợp tài liệu và phần nào là học qua self-test, để tránh coi thời gian học cần thiết là lãng phí?"*<br>- Hỏi Lý (Card #1 - Đối chiếu JD): *"Bạn dùng bằng chứng nào từ dự án hoặc kinh nghiệm để xác nhận mình đáp ứng một yêu cầu trong JD?"* | Giúp Phúc nhận ra quên đồ là việc cá nhân khó đo lường trong lab; giúp Kiệt và Lý phân tách rõ giữa thời gian thao tác tài liệu và thời gian tư duy học tập. |
+| Nhận phản biện | Câu hỏi tôi nhận được:<br>- Phúc hỏi Card #1: *"Vì sao nhóm chưa chốt người phụ trách và deadline ngay trong lúc họp, thay vì phải nghe lại sau đó?"*<br>- Kiệt hỏi Card #2: *"Những yêu cầu nào thực sự không kiểm tra được bằng checklist hoặc script, khiến nhóm cần cân nhắc AI?"*<br>- Lý hỏi Card #3: *"Bạn dựa trên tiêu chí nào để xác nhận năm bài được chọn thực sự liên quan, thay vì chỉ có từ khóa giống đề tài?"* | Tôi đã sửa gì: Thừa nhận phản biện của Kiệt là điểm mấu chốt: Phần lớn lỗi quy cách (tên file, cấu trúc thư mục, file bắt buộc) hoàn toàn giải quyết triệt để bằng Checklist hoặc script Rule (GitHub Actions) mà không cần dùng đến AI. |
+| Gom cluster / cây OST | Tham gia phân loại 12 candidate thành 6 cụm (Cluster A đến F). | Thấy Cluster A (Đối chiếu yêu cầu với hiện trạng) có ở cả 4 người; chốt Outcome chung: *"Giảm thời gian sinh viên mất cho việc đọc yêu cầu, đối chiếu với hiện trạng và tổng hợp lại trước khi ra quyết định"*. |
+| Chọn candidate problem | Ban đầu tôi muốn giữ Candidate E (Biên bản họp), nhưng sau khi thảo luận và chấm điểm (A đạt 35/35, E đạt 28/35), tôi đồng thuận chọn Candidate A (Rà bài nộp theo rubric/quy cách). | Đưa bài toán biên bản họp vào mục hướng mở rộng tiếp theo; thống nhất chọn bài toán có 2 nguồn bằng chứng bị trừ điểm thật (tôi bị trừ 10%, Kiệt bị trừ 2/5 lab). |
+| Kiểm chứng / research | Xây dựng Assumption Map (ưu tiên giả định #1, #2, #3, #5); research 3 pattern giải pháp có sẵn: Checklist Markdown trên GitHub, GitHub Actions workflow (Rule), và `gh pr checks`. | Thống nhất giữ tính trung thực dữ liệu: ghi rõ chưa phỏng vấn người ngoài nhóm, không tự bịa đặt số liệu phỏng vấn khống. |
+| Quy trình nhóm | Tham gia vẽ quy trình trước/sau: tách bạch rõ giữa bước kiểm tra quy cách tự động (Rule) và bước tự đánh giá nội dung của sinh viên. | Thiết lập Boundary an toàn: Rule chỉ cảnh báo theo điều kiện đã duyệt, không tự sửa bài, không nộp thay lên LMS, có nhánh quay về checklist thủ công khi lỗi. |
+| Problem Statement | Cùng nhóm xây dựng Problem Statement v0 và nâng cấp lên v1. | Tách riêng lỗi quy cách và lỗi nội dung; Success metric nhắm đến giảm thời gian rà bài từ 25 phút xuống dưới 10 phút/lần, không còn lỗi quy cách sau nộp trong 2 tuần. |
+| Mức can thiệp AI | Thảo luận và thống nhất chọn mức: **No AI (Checklist) làm baseline mốc so sánh, thử nghiệm Rule (GitHub Actions) cho phần quy cách**. | Nhất trí không chọn Workflow hay Agent phức tạp vì chưa có bằng chứng cho thấy Checklist và Rule không đủ dùng. |
+| Quyết định | Tham gia đánh giá 4 khía cạnh rủi ro của Marty Cagan. | Đồng thuận ra quyết định: **Not Yet** đối với việc triển khai giải pháp kỹ thuật; cần phỏng vấn thêm 2–3 người ngoài nhóm và thử nghiệm checklist thủ công trước khi bấm nút Go. |
 
 ---
 
@@ -160,33 +160,45 @@ Tổng thời gian lọc tài liệu: ~3 tiếng.
 |---|---|---|---|---|
 | CP1 Scan | Tìm thêm góc nhìn về các vấn đề phổ biến của sinh viên đại học. | Gợi ý cho tôi lăng kính về việc tổng hợp biên bản họp nhóm và quản lý deadline bị phân mảnh. | AI hay đưa ra các giải pháp đao to búa lớn dạng "Hệ thống quản lý thông minh toàn diện", vi phạm nguyên tắc "chưa đưa giải pháp vào problem". | Tôi gạt bỏ các câu chữ giải pháp, viết lại thuần túy theo Job Story tập trung vào nỗi đau mất thời gian và có số phút đo lường thực tế. |
 | CP2 Problem Card | Đóng vai "PM hoài nghi" để phản biện 3 Problem Card của tôi. | Chỉ ra ngay điểm yếu: giải pháp ở Card #1 nếu để tự động gửi đi mà không có bước duyệt sẽ gây tranh cãi nội bộ khi AI nghe nhầm task. | Ban đầu AI gợi ý dùng Agent phức tạp tự kết nối API vào Trello/Jira để tạo task luôn. | Tôi sửa lại: hạ xuống mức Workflow bán tự động có con người xác nhận (HITL), ưu tiên đơn giản và dễ kiểm soát. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Đọc hiểu và tổng hợp tài liệu chính thức của GitHub về Tasklist và Actions. | Tóm tắt nhanh cơ chế hoạt động của cú pháp checklist Markdown và cách trigger workflow trong GitHub Actions. | AI phóng đại rằng GitHub Actions có thể "tự động chấm điểm rubric", gây ngộ nhận về năng lực của rule. | Tôi và nhóm đính chính lại: GitHub Actions chỉ kiểm tra các điều kiện xác định (đường dẫn, sự tồn tại của file), không thể thay con người chấm bài luận. |
+| CP5 Quy trình | Chuyển đổi luồng công việc rà bài trước và sau sang định dạng văn bản trực quan. | Cấu trúc luồng rõ ràng qua 5 bước: đọc đề, mở rubric, đọc bài, đối chiếu và sửa lỗi. | AI hay vẽ luồng tương lai lý tưởng hóa mà quên mất nhánh xử lý lỗi khi rule cấu hình sai. | Tôi bổ sung nhánh "Phương án quay về (Fallback)": nếu script rule bị lỗi, người nộp bài lập tức quay về checklist thủ công và nhờ bạn review chéo. |
+| CP5–6 Problem Statement | Rà soát các tiêu chí đo lường trong Problem Statement v0 và v1. | Nhắc nhở nhóm phải đo cả "công thiết lập và bảo trì rule" chứ không chỉ đo thời gian chạy script đơn lẻ. | AI hay viết metric cảm tính như "giúp sinh viên an tâm hơn khi nộp bài". | Tôi và nhóm chuẩn hóa lại số đo: giảm thời gian từ 25 phút xuống dưới 10 phút, và số lỗi quy cách sau nộp bằng 0 trong 2 tuần theo dõi. |
+| CP6 Mức can thiệp / quyết định | Thử thách quyết định Go / No-Go theo 4 rủi ro sản phẩm của Marty Cagan. | Đặt câu hỏi hay về rủi ro Viability: Liệu thời gian bỏ ra cấu hình rule có nhiều hơn thời gian rà bài bằng mắt không? | AI thường mặc định khuyên "Go" vì thấy bài toán rõ ràng. | Nhóm giữ sự tỉnh táo và chọn **Not Yet**, vì dữ liệu phỏng vấn ngoài nhóm chưa có, chưa thể vội vàng đầu tư làm giải pháp khi chưa kiểm chứng thực tế. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Trắc nghiệm nhận thức và chiêm nghiệm cá nhân qua quá trình thực hành:
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
+Khi nghe phần pitch của Phúc, Kiệt và Lý, điều giá trị nhất tôi học được là: Một vấn đề chỉ thực sự có sức nặng khi nó có **bằng chứng hành vi trong quá khứ** chứ không phải dựa trên cảm giác. Ví dụ, cả tôi và Kiệt đều độc lập chỉ ra nỗi đau bị trừ điểm khi nộp bài lab (Kiệt mất 25 phút/lab, 2/5 lab bị trừ điểm; tôi mất 20–30 phút, từng bị trừ 10% điểm vì sai cấu trúc thư mục). Khi đặt cạnh bài toán quên đồ dùng của Phúc hay bài toán đối chiếu JD của Lý, nhóm nhận thấy bài toán rà bài nộp có mức độ lặp lại cao hơn hẳn và hậu quả có thể nhìn thấy ngay lập tức. Điều này dạy cho tôi bài học rằng khi làm sản phẩm, hãy lắng nghe những việc người dùng đang phải làm đi làm lại hàng tuần và đang phải trả giá bằng thời gian hoặc điểm số thật.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
+Có, nhóm bị "dính bẫy" solution-first rất rõ ở giai đoạn đầu của CP3. Trong quá trình thảo luận, các thành viên rất dễ bật ra những giải pháp thời thượng như: *"Làm một con AI Chatbot đọc rubric rồi tự chấm điểm bài làm"* hoặc *"Làm Agent tự động sửa lỗi và push bài lên LMS"*. Nhóm nhận ra điều này khi dựng cây Opportunity Solution Tree (OST) và đối chiếu với câu hỏi: *"Nỗi đau cốt lõi của sinh viên là gì?"*. Nỗi đau là việc phải căng mắt so từng file, từng yêu cầu và sợ bị trừ điểm oan, chứ sinh viên không hề có nhu cầu giao toàn bộ quyền nộp bài cho một con AI mà họ không tin tưởng. Nhóm đã xử lý bằng cách gạch bỏ thẳng tay các giải pháp trá hình trong cây OST và kiên quyết chỉ tập trung vào phân tích bản chất của các loại lỗi.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
+Tôi đã có một lần đổi ý rất quan trọng ở CP3. Ban đầu, tôi rất tâm đắc với Card #1 của mình (Bài toán tổng hợp biên bản họp nhóm đồ án) vì tôi đã đầu tư vẽ quy trình 5 bước rất chi tiết và chuẩn bị cả hướng dùng AI Workflow. Tôi đã ra sức bảo vệ ý tưởng này trong phần pitch. Tuy nhiên, nhóm đã phản biện tôi rất sắc bén: Thứ nhất, trong 4 thành viên thì chỉ có mình tôi đưa ra bằng chứng trực tiếp về việc làm biên bản họp, bạn Lý thậm chí không có nhu cầu này; thứ hai, bạn Kiệt đặt câu hỏi: *"Nếu trong buổi họp mọi người nói chuyện đùa nhiều hoặc không chốt việc dứt khoát, thì việc trích xuất biên bản có giải quyết được gốc rễ không?"*. Nhìn sang bài toán rà bài nộp theo rubric (Candidate A), cả tôi và Kiệt đều gặp, quy trình rõ và đo lường được ngay. Tôi nhận ra mình đang bị thiên vị ý tưởng cá nhân chỉ vì nó "trông có vẻ hay ho về mặt công nghệ". Tôi đã chủ động đổi ý và bỏ phiếu đồng thuận chọn Candidate A cùng nhóm.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
+Điều làm tôi bất ngờ nhất khi làm CP4 là nhận thức về **tính trung thực của dữ liệu**. Trong nhiều bài tập trước đây, sinh viên thường có thói quen "bịa" ra vài câu phỏng vấn giả định để làm đẹp báo cáo. Nhưng trong bài lab này, nhóm CharSiu đã thống nhất giữ thái độ nghiêm túc tuyệt đối: Ghi rõ là chưa có phỏng vấn ngoài nhóm và chưa khẳng định được pain đã được xác thực ở quy mô rộng. Khi research về GitHub Actions và Tasklist, tôi cũng bất ngờ nhận ra rằng thế giới phần mềm đã có sẵn những công cụ Rule rất mạnh mẽ để kiểm tra định dạng và tệp tin. Rất nhiều bài toán tưởng chừng cần đến AI thực chất chỉ cần một file checklist Markdown hoặc một đoạn script kiểm tra cấu trúc đơn giản là đã giải quyết được 80% vấn đề với độ tin cậy 100%.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**  
+Điều khó nhất là xác định **Boundary (Ranh giới)** và tách bạch giữa **lỗi quy cách** với **chất lượng nội dung**. Khi viết Problem Statement cho bài toán rà bài nộp, cám dỗ lớn nhất là muốn công cụ làm tất cả: vừa kiểm tra tên file, vừa đánh giá xem bài viết có hay không, code có tối ưu không. Phải mất nhiều thời gian tranh luận nhóm mới vạch rõ được ranh giới an toàn: Công cụ chỉ được phép kiểm tra các điều kiện quy cách rõ ràng (tên file, cấu trúc thư mục, định dạng nộp); tuyệt đối không được tự ý sửa bài của thành viên, không nộp thay lên LMS và không được kết luận "Pass" thay cho việc chấm điểm của giảng viên. Viết được một Boundary chặt chẽ đòi hỏi sự dũng cảm để từ chối những tính năng viển vông.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
+Nếu làm lại từ đầu, tôi sẽ thúc đẩy nhóm tiến hành phỏng vấn nhanh 1–2 bạn sinh viên ngoài nhóm ngay trong giờ giải lao giữa CP2 và CP3. Việc thiếu dữ liệu phỏng vấn người thật ngoài nhóm ở CP4 là lý do chính khiến nhóm buộc phải dừng lại ở quyết định **Not Yet** thay vì có thể tự tin bấm **Go** cho một pilot nhỏ. Nếu có dữ liệu người thật sớm hơn, nhóm sẽ có cơ sở vững chắc hơn để khẳng định xem lỗi quy cách hay lỗi nội dung mới là thứ khiến sinh viên bị trừ điểm nhiều nhất. Đồng thời, tôi sẽ phản biện nhóm mạnh mẽ hơn ngay từ đầu để loại bỏ hoàn toàn các ý tưởng mang tính đời sống cá nhân (như quên đồ hay chia tiền) để dồn 100% thời gian cho bài toán học thuật cốt lõi.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.  
+Bài toán của nhóm xuất phát từ **problem** thực tế: Sinh viên phụ trách nộp bài lab nhóm mất từ 20–25 phút rà soát thủ công trước deadline và thường xuyên bỏ sót yêu cầu dẫn đến bị trừ điểm oan về quy cách trình bày. **Quy trình** hiện tại bộc lộ điểm nghẽn lớn nhất ở bước đối chiếu từng mục trong rubric với bài làm đã ghép, dễ gây nhầm lẫn khi phải nhớ quá nhiều quy định cùng lúc. **Success Metric** kỳ vọng giảm thời gian rà bài từ 25 phút xuống dưới 10 phút/lần và triệt tiêu hoàn toàn lỗi quy cách phát hiện sau khi nộp trong 2 tuần theo dõi. **Boundary** được thiết lập chặt chẽ: giải pháp chỉ kiểm tra các điều kiện định dạng xác định đã được người dùng duyệt, tuyệt đối không tự sửa bài, không tự nộp LMS và không thay thế việc chấm điểm nội dung của giảng viên. Về **mức can thiệp**, nhóm chọn **No AI (Checklist Markdown) làm mốc cơ sở và thử nghiệm Rule (GitHub Actions) cho phần quy cách**, hoàn toàn không dùng LLM hay Agent vì bài toán có độ mơ hồ thấp và Rule mang lại độ chính xác tuyệt đối. Nhóm đưa ra **quyết định: Not Yet**, tạm thời chưa xây dựng giải pháp kỹ thuật mà tiếp tục phỏng vấn 2–3 sinh viên ngoài nhóm để kiểm chứng độ phổ biến của nỗi đau và đo lường chi phí bảo trì rule trước khi chính thức triển khai.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Rob Fitzpatrick (2013), *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you*.
+- Teresa Torres (2021), *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value* (Opportunity Solution Tree).
+- Marty Cagan (2017), *Inspired: How to Create Tech Products Customers Love* (4 Product Risks).
+- Google PAIR (People + AI Research), *People + AI Guidebook* (Augment vs Automate, Errors & Feedback).
+- Anthropic (2024), *Building Effective Agents: Workflows vs Agents*.
+- GitHub Docs (2026), *About tasklists & Triggering a workflow*.
