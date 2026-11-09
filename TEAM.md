@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Đồng Ngọc Phúc | 2A202603399 | Tổng hợp báo cáo, hỗ trợ kiểm chứng/research và rà tính nhất quán | dnphuc04 |
-| 2 | | | | |
+| 2 | Dương Tuấn Hùng | 2A202603416 | Phụ trách bảng pitch (CP3), quy trình trước/sau (CP5), hỗ trợ kiểm chứng và research | hungduong1127ne |
 | 3 | Nguyễn Tuấn Kiệt | 2A202603417 | Research giải pháp đã có (CP4), phản biện card, xác nhận quyết định CP6 | kite1143 |
 | 4 | | | | |
 
@@ -37,23 +37,36 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### DuongTuanHung-2A202603416
 
 **Phần việc phụ trách:**
 
--
+- **CP3 — Hội tụ nhóm:** phụ trách tổng hợp bảng 12 card; tham gia cluster và cây OST.
+- **CP4 — Kiểm chứng & Research:** hỗ trợ thu thập phản hồi survey ngoài nhóm và cùng nhóm rà soát 3 nguồn research.
+- **CP5 — Quy trình trước/sau:** phụ trách phối hợp tổng hợp bằng AI và rà phạm vi thời gian (sơ đồ quy trình và bảng before/after).
+- **CP6 — Quyết định:** tham gia đánh giá 4 rủi ro và xác nhận quyết định Not Yet, chọn No AI (checklist + review chéo).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- **CP1–CP2:** Pitch 3 card cá nhân; Card #2 (đối chiếu cấu trúc thư mục và quy cách nộp bài) được gộp với Card #1 của Kiệt thành Candidate A "Kiểm tra bài nộp theo rubric/quy cách trước deadline" và được nhóm chọn với điểm cao nhất 35/35.
+- **CP3:** Tổng hợp bảng 12 card của cả 4 thành viên và ghi nhận câu hỏi phản biện chéo ở Mục 2.1; đặt câu hỏi phản biện cho Phúc, Kiệt và Lý.
+- **CP4:** Tham gia gửi form khảo sát (Google Form 9 câu) đến sinh viên ngoài nhóm, thu thập dữ liệu phục vụ phân tích mẫu n=5.
+- **CP5:** Phụ trách xây dựng quy trình trước/sau: làm rõ thời gian chỉ rà bài (25 phút theo Kiệt, trung vị 30 phút theo survey), phân tách bước đọc bài (10 phút) và bước đối chiếu (8 phút - bottleneck giả định); xây dựng quy trình tương lai No AI với mục tiêu rà bài tối đa 20 phút/lần.
+- **CP6:** Cùng nhóm thống nhất chọn mức **No AI (checklist Markdown + review chéo)** và quyết định **Not Yet** đối với triển khai giải pháp kỹ thuật, do bằng chứng survey cho thấy 3/5 người thấy cách làm hiện tại đủ dùng.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- [Báo cáo nhóm — mục 2.1](report/team/group_report.md#21-pitch): 3 card cá nhân của mình ở dòng 4–6 và 3 câu hỏi phản biện mình đặt.
+- [Báo cáo nhóm — mục 2.4](report/team/group_report.md#24-chấm-điểm-shortlist-15): candidate A 35/35, gộp từ Card #2 của mình.
+- [Báo cáo nhóm — mục 3.2](report/team/group_report.md#32-kiểm-chứng): tham gia thu thập survey n=5 và phân tích kết quả.
+- [Báo cáo nhóm — mục 4](report/team/group_report.md#4-quy-trình-trướcsau-cp5): quy trình hiện tại, quy trình tương lai và bảng before/after.
+- [Báo cáo nhóm — mục 8](report/team/group_report.md#8-quyết-định-cp6): 4 rủi ro và quyết định Not Yet.
+- [Báo cáo cá nhân](report/individual/2A202603416_DuongTuanHung.md), mục 2–6.
 
 **Điều mình học được từ phần nhóm:**
 
--
+1. **Dữ liệu thật có thể phản bác kỳ vọng ban đầu:** Khi làm cá nhân ở CP2, mình giả định ai cũng đau đớn vì rà bài nộp và cần công cụ tự động. Nhưng khi khảo sát n=5 người ngoài nhóm, có tới 3/5 người nói cách làm thủ công hiện tại là đủ dùng. Nhận thức này giúp mình hiểu giá trị của bằng chứng phản bác để tránh rơi vào bẫy "thần thánh hóa AI".
+2. **Chọn mức can thiệp đơn giản nhất:** Qua phân tích, nhóm nhận ra phần lớn lỗi quy cách chỉ cần một checklist Markdown rõ ràng gắn liền với đề bài và có người review chéo là giải quyết được, không cần đến script hay AI phức tạp.
 
 ### DongNgocPhuc-2A202603399
 
