@@ -160,44 +160,33 @@ Tổng thời gian lọc tài liệu: ~3 tiếng.
 |---|---|---|---|---|
 | CP1 Scan | Tìm thêm góc nhìn về các vấn đề phổ biến của sinh viên đại học. | Gợi ý cho tôi lăng kính về việc tổng hợp biên bản họp nhóm và quản lý deadline bị phân mảnh. | AI hay đưa ra các giải pháp đao to búa lớn dạng "Hệ thống quản lý thông minh toàn diện", vi phạm nguyên tắc "chưa đưa giải pháp vào problem". | Tôi gạt bỏ các câu chữ giải pháp, viết lại thuần túy theo Job Story tập trung vào nỗi đau mất thời gian và có số phút đo lường thực tế. |
 | CP2 Problem Card | Đóng vai "PM hoài nghi" để phản biện 3 Problem Card của tôi. | Chỉ ra ngay điểm yếu: giải pháp ở Card #1 nếu để tự động gửi đi mà không có bước duyệt sẽ gây tranh cãi nội bộ khi AI nghe nhầm task. | Ban đầu AI gợi ý dùng Agent phức tạp tự kết nối API vào Trello/Jira để tạo task luôn. | Tôi sửa lại: hạ xuống mức Workflow bán tự động có con người xác nhận (HITL), ưu tiên đơn giản và dễ kiểm soát. |
-| CP4 Research | Hỗ trợ tìm kiếm nhanh các tính năng cốt lõi của các tool ghi chú cuộc họp hiện nay. | Liệt kê nhanh thông tin tính năng của Otter.ai và Fireflies.ai. | AI trích dẫn một số thông tin về giá và tính năng tiếng Việt không chính xác (bịa thông tin cập nhật). | Tôi phải tự vào trực tiếp trang chủ và bảng giá của Otter.ai, Fireflies để đọc lại và kiểm chứng nguồn link thật. |
-| CP5 Quy trình | Chuyển đổi mô tả quy trình dạng text sang cú pháp sơ đồ Mermaid. | Giúp tạo khung sơ đồ nhanh chóng, trực quan hóa các bước luồng công việc. | AI vẽ sơ đồ bỏ qua bước xử lý ngoại lệ (khi file ghi âm quá rè hoặc transcript bị thiếu thì quay về đâu). | Tôi bổ sung nhánh "Phương án quay về (Fallback)": nếu transcript chất lượng kém thì quay về biên bản ghi tay thủ công truyền thống. |
-| CP5–6 Problem Statement | Rà soát lỗi logic và câu chữ trong bản Problem Statement v0 và v1. | Kiểm tra tính nhất quán giữa Bottleneck và Success Metric. | AI thường viết metric chung chung như "giúp sinh viên tiện lợi và chuyên nghiệp hơn". | Tôi ép lại định dạng chuẩn: Baseline hiện tại là bao nhiêu phút, Target mong muốn là bao nhiêu phút, đo bằng đồng hồ bấm giờ. |
-| CP6 Mức can thiệp / quyết định | Thử thách quyết định Go / No-Go theo 4 rủi ro của Marty Cagan. | Đặt ra các câu hỏi hay về rủi ro Viability (chi phí gọi API Whisper/LLM liệu sinh viên có chịu trả không). | AI thường kết luận thiên vị "Hãy triển khai ngay vì tiềm năng lớn". | Tôi và nhóm giữ cái đầu lạnh: Chỉ quyết định Go ở quy mô pilot nhỏ trong nhóm, nếu sau 2 tuần chi phí vượt quá 50.000đ/tháng hoặc lỗi gán task >20% thì lập tức dừng lại. |
+| CP4 Research | | | | |
+| CP5 Quy trình | | | | |
+| CP5–6 Problem Statement | | | | |
+| CP6 Mức can thiệp / quyết định | | | | |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trắc nghiệm nhận thức và chiêm nghiệm cá nhân qua quá trình thực hành:
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
-Khi nghe các bạn trong nhóm pitch, tôi nhận ra một điều rất thú vị: Hầu hết mọi người (kể cả bản thân tôi lúc mới bắt đầu) đều có xu hướng nhìn thấy vấn đề ở khắp mọi nơi nhưng lại rất khó diễn đạt nó thành một quy trình đo đếm được. Có bạn đưa ra vấn đề "học tiếng Anh không hiệu quả" hay "hay bị mất tập trung khi học", nghe thì rất đau đớn nhưng khi hỏi: *Ai là người chịu trách nhiệm chính? Quy trình gồm những bước nào? Bước nào là nghẽn nhất?* thì bạn lại lúng túng. Điều này giúp tôi hiểu rằng một problem tốt không chỉ là một nỗi đau lớn, mà phải là một nỗi đau có biên giới rõ ràng, có actor cụ thể và có thể can thiệp được bằng một chuỗi hành động cụ thể.
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
-Có, nhóm tôi bị "dính bẫy" solution-first ngay từ đầu CP3. Khi một bạn pitch ý tưởng, bạn ấy nói ngay: *"Nhóm mình nên làm một con chatbot AI tích hợp vào Discord để tự động nhắc deadline và trả lời bài tập"*. Cả nhóm lập tức bị cuốn vào việc thảo luận xem bot sẽ dùng model gì, prompt ra sao, giao diện thế nào. May mắn là chúng tôi nhớ lại quy tắc trong bài lab: *Tuyệt đối không giải pháp hóa vấn đề*. Tôi đã kéo cả nhóm lại bằng câu hỏi: *"Khoan đã, vấn đề thực sự ở đây là các bạn không biết deadline hay là biết nhưng không có thời gian làm? Nếu chỉ là nhắc deadline thì một cái Google Calendar hay thông báo Zalo thông thường có giải quyết được không?"*. Sau câu hỏi đó, nhóm nhận ra mình đang cố "bán" một con chatbot cho một vấn đề mà công cụ Rule cơ bản đã làm rất tốt.
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
-Tôi đã đổi ý hoàn toàn ở khâu thiết kế quy trình tương lai cho Card #1 của mình. Ban đầu, tôi rất hào hứng với ý tưởng "tự động hóa 100%": AI nghe cuộc họp, tự xuất ra task và tự động đẩy task lên Trello của từng bạn mà không cần ai can thiệp. Tuy nhiên, khi bạn cùng nhóm phản biện rằng: *"Trong lúc họp nhóm đồ án, bọn mình nói đùa rất nhiều, nhiều khi bảo 'thôi mày làm hết đi' thì AI có phân biệt được không? Nếu AI giao nhầm task quan trọng cho người khác thì ai chịu trách nhiệm?"*. Lời phản biện này đánh trúng điểm yếu chí mạng về Usability và Feasibility. Tôi nhận ra mình đã quá ngây thơ về độ tin cậy của AI. Tôi lập tức đổi ý và bổ sung một bước bắt buộc: AI chỉ đóng vai trò trợ lý dự thảo (Augment), thư ký con người vẫn phải là người bấm nút "Phê duyệt" cuối cùng trước khi biên bản được ban hành.
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
-Điều làm tôi bất ngờ nhất khi research các công cụ ghi chép cuộc họp hiện có (như Otter.ai hay Fathom) là: Thế giới đã giải bài toán này rất tốt ở thị trường tiếng Anh cho doanh nghiệp, nhưng đối với sinh viên Việt Nam thì gần như bỏ trống. Sinh viên không thể trả 10-20$/tháng cho một phần mềm, và khả năng nhận diện tiếng Việt chêm lẫn thuật ngữ kỹ thuật tiếng Anh (Code-switching) của các tool quốc tế cực kỳ tệ. Điều này chứng minh rằng nỗi đau của chúng tôi là có thật, nhưng rào cản lớn nhất không phải là không có công nghệ, mà là chi phí (Viability) và khả năng xử lý ngôn ngữ thực tế của người dùng bản địa.
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**  
-Điều khó nhất là viết phần **Boundary (Ranh giới)** và **Success Metric**. Khi viết về lợi ích, chúng ta rất dễ dùng những từ ngữ hoa mỹ nhưng vô nghĩa như "nhanh chóng", "chính xác", "tiện lợi". Ép mình phải đưa ra con số Baseline (hiện tại mất 50 phút) và Target (giảm xuống dưới 10 phút) đòi hỏi phải thực sự hiểu quy trình hiện tại. Ngoài ra, việc xác định rõ *AI KHÔNG ĐƯỢC LÀM GÌ* cũng rất thử thách, vì tâm lý người làm công nghệ luôn muốn AI làm được càng nhiều càng tốt. Phải có sự tỉnh táo mới dám vạch ra ranh giới: AI không được tự ý gán deadline nếu trong cuộc họp chưa có sự đồng thuận rõ ràng.
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
-Nếu được làm lại từ đầu, tôi sẽ yêu cầu nhóm thực hiện phỏng vấn người thật (The Mom Test) ngay từ giữa CP2 thay vì đợi đến CP4. Việc có dữ liệu thực tế từ 2-3 bạn sinh viên ngoài nhóm sớm hơn sẽ giúp chúng tôi loại bỏ được các candidate mơ hồ ngay từ đầu, tiết kiệm được ít nhất 20 phút tranh luận cảm tính ở CP3. Đồng thời, tôi sẽ phản biện nhóm quyết liệt hơn trong việc chọn công cụ: Đừng vội vã nghĩ đến việc tự xây dựng sản phẩm từ đầu, mà nên bắt đầu bằng việc tích hợp các API có sẵn vào một Google Docs template bán tự động để kiểm chứng giá trị trước.
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.  
-Bài toán của nhóm xuất phát từ **problem** thực tế: Sinh viên làm đồ án mất quá nhiều thời gian hành chính (trung bình 50 phút) sau mỗi buổi họp nhóm chỉ để nghe lại ghi âm, lục lọi ghi chú và soạn biên bản phân công công việc. **Quy trình** hiện tại bộc lộ điểm nghẽn nghiêm trọng nhất ở khâu đọc hiểu và trích xuất danh sách người - việc từ bản thảo thô. **Success Metric** được định lượng rõ ràng: giảm thời gian tổng hợp xuống dưới 10 phút/buổi họp và đảm bảo biên bản được gửi đi trong vòng 15 phút. Để kiểm soát rủi ro nghe nhầm hoặc ảo giác, **Boundary** quy định nghiêm ngặt rằng AI chỉ tạo bản dự thảo gợi ý, tuyệt đối không được tự ý giao việc vào hệ thống mà bắt buộc phải qua sự xác nhận của thư ký nhóm (Human-in-the-loop). Do tính chất bài toán có luồng xử lý tuần tự xác định nhưng đầu vào văn bản tự nhiên có độ mơ hồ, **mức can thiệp AI** tối ưu được chọn là **Workflow** (kết hợp công cụ trích xuất giọng nói, LLM tóm tắt và con người duyệt), hoàn toàn không cần đến Agent tự hành phức tạp. Nhóm đưa ra **quyết định: Go** ở phạm vi pilot nhỏ giới hạn trong 3 nhóm đồ án, đi kèm **ngưỡng dừng** rõ ràng: nếu sau 2 tuần tỷ lệ gán sai task vượt quá 20% hoặc chi phí API vượt quá 50.000đ/tháng thì lập tức ngừng dự án và quay về mẫu template Notion thủ công.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
-- Rob Fitzpatrick (2013), *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you*.
-- Teresa Torres (2021), *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value* (Opportunity Solution Tree).
-- Marty Cagan (2017), *Inspired: How to Create Tech Products Customers Love* (4 Product Risks).
-- Google PAIR (People + AI Research), *People + AI Guidebook* (Augment vs Automate, Errors & Feedback).
-- Anthropic (2024), *Building Effective Agents: Workflows vs Agents*.
+-
