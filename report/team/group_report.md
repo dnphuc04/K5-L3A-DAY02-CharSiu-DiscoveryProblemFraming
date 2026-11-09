@@ -35,40 +35,66 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Đối chiếu yêu cầu với hiện trạng | #1 (Phúc C1), #5 (Hưng C2), #7 (Kiệt C1), #10 (Lý C1) | Đọc một bộ yêu cầu (đề lab/rubric/JD) rồi so với bài làm hoặc năng lực hiện có để tìm phần thiếu, rồi quyết định làm gì tiếp |
+| B — Tổng hợp nhiều nguồn thành một bản dùng được | #6 (Hưng C3), #8 (Kiệt C2), #12 (Lý C3) | Gom nhiều tài liệu/nguồn, lọc bớt và viết lại thành một bộ có cấu trúc để học hoặc dùng |
+| C — Tạo/chỉnh nội dung theo yêu cầu | #11 (Lý C2) | Sinh ra bản mới (CV) khớp với yêu cầu, không chỉ kiểm tra |
+| D — Truy xuất thông tin cũ | #9 (Kiệt C3) | Tìm đúng đoạn đã trả lời trong lịch sử thảo luận dài |
+| E — Phối hợp nhóm sau họp | #2 (Phúc C2), #4 (Hưng C1) | Sau họp nhóm, việc/người/hạn chưa rõ hoặc chốt chậm |
+| F — Việc cá nhân đời sống | #3 (Phúc C3) | Nhắc vật dụng/việc trước khi ra khỏi nhà |
+
+**Nhận xét:** cluster A có mặt ở **cả 4 người**; trong đó #5 (Hưng C2) và #7 (Kiệt C1) gần như là **cùng một candidate** — kiểm bài nộp trước deadline — nên được gộp khi chấm điểm. Cluster E có 2 người nhưng chỉ 1 nguồn trực tiếp cho biên bản họp (#4).
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian sinh viên mất cho việc đọc yêu cầu, đối chiếu với hiện trạng
+         và tổng hợp lại trước khi ra quyết định
+
+├── Opportunity A: Bộ yêu cầu (đề lab/rubric/JD) dài và rải rác, phải giữ nhiều mục
+│                  trong đầu cùng lúc khi đối chiếu
+├── Opportunity B: Đối chiếu xong vẫn không chắc đã đủ/đúng, dễ bỏ sót mục quan trọng
+│                  và bị trừ điểm oan
+├── Opportunity C: Phải gom nhiều nguồn (slide, paper, JD) thành một bản dùng được,
+│                  lặp lại mỗi kỳ hoặc mỗi đề tài
+└── Opportunity D: Không tìm lại được đoạn đã trả lời trong lịch sử dài
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- "Chatbot kiểm bài tự động" — là giải pháp, không phải pain.
+- "Agent tự sửa và tự nộp bài" — là giải pháp, và vượt phạm vi bài lab.
+- "Tool tự viết CV / tự trả lời phỏng vấn" — là giải pháp.
+- "Dashboard tự tổng hợp mọi deadline" — là giải pháp.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| A — Kiểm bài nộp theo rubric/quy cách (#5 + #7 gộp) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
+| E — Biên bản họp + action items (#4) | 4 | 5 | 3 | 4 | 4 | 5 | 3 | 28 |
+| B — Gộp tài liệu ôn thi (#8) | 4 | 4 | 3 | 4 | 3 | 4 | 4 | 26 |
 
-**Candidate được chọn:**
+**Candidate được chọn:** **A — Kiểm tra bài nộp theo rubric/quy cách trước deadline** (gộp bằng chứng của #5 và #7).
 
 **Vì sao chọn:**
 
+- 2 người độc lập cùng gặp và đều có hậu quả thật: Kiệt 25 phút/lab, 5 lab/tuần, 2/5 lab bị trừ điểm; Hưng 20–30 phút/lần, từng bị trừ 10% vì sai cú pháp thư mục.
+- Quy trình 5 bước rõ, bottleneck là một bước cụ thể (đối chiếu từng mục), không phải "quy trình chậm" chung chung.
+- Impact đo được ngay: thời gian/lần và số lỗi quy cách sau khi nộp.
+- So sánh được đủ 4 mức, và có khả năng dừng ở **Rule** (script kiểm file/tên thư mục) — đây là kết luận hợp lệ, không bị trừ điểm.
+
 **Vì sao loại các candidate còn lại:**
 
-**Xử lý bất đồng (nếu có):**
+- **E (biên bản họp):** quy trình chi tiết nhất nhưng chỉ 1 nguồn trực tiếp; 1/4 người (Lý) không có pain họp nhóm; phụ thuộc nhóm có thư ký và transcript. Chọn E là chọn theo độ đẹp của quy trình, không theo độ phổ biến của pain. Ghi vào hướng tiếp theo.
+- **B (gộp tài liệu ôn thi):** impact lớn về giờ nhưng mỗi kỳ/mỗi đề tài mới xảy ra một lần, khó đo trong một buổi lab; toàn bộ là số hồi tưởng.
+- **D (Discord search):** dữ liệu nằm trong Discord, khó lấy ra đo, dễ trượt thành dự án tìm kiếm quá lớn.
+- **F (quên đồ):** phạm vi quá nhỏ, giải bằng checklist tại cửa — không cần bài lab này.
+
+**Xử lý bất đồng (nếu có):** Hưng muốn giữ candidate biên bản họp vì quy trình 5 bước rõ và đã có research tool. Nhóm ghi nhận, nhưng thống nhất chọn A vì có 2 nguồn bằng chứng độc lập và tần suất lặp lại cao hơn. Biên bản họp được giữ làm **hướng tiếp theo**. Lưu ý: file cá nhân của Hưng đang ghi nhóm chốt biên bản họp — cần sửa lại cho khớp với kết luận này.
+
+**Ghi chú dữ liệu:** mọi thời gian trong bảng pitch đều là ước lượng hồi tưởng của từng thành viên, chưa có phỏng vấn ngoài nhóm. Việc kiểm chứng thuộc CP4.
 
 ---
 
