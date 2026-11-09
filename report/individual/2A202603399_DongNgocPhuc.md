@@ -48,7 +48,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Khó xác định thứ tự làm và dễ bỏ sót yêu cầu quan trọng của bài lab | Mất khoảng 30 phút trở lên; actor và bước đọc lại rõ. Tôi chọn Card #1 để pitch vì khó xác định việc làm trước và dễ bỏ sót yêu cầu quan trọng ngay từ đầu. | Nguyên nhân khó hiểu và thời gian từng bước. |
+| 1 | Khó xác định thứ tự làm và dễ bỏ sót yêu cầu quan trọng của bài lab | Lần hồi tưởng gần nhất mất khoảng 31 phút tìm hiểu yêu cầu; actor và bước đọc lại cụ thể. Tôi chọn Card #1 để pitch vì khó xác định việc làm trước và dễ bỏ sót yêu cầu quan trọng ngay từ đầu. | Nguyên nhân sâu hơn; bước đọc lại là bottleneck giả định cần kiểm chứng. Thời gian từng bước là ước lượng hồi tưởng. |
 | 2 | Khó chốt lịch họp nhóm | Ảnh hưởng 4 người; khoảng 1 ngày chốt lịch; chậm phân công. | Thời gian hiện là ước lượng; chưa đối chiếu tin nhắn và chưa đo mức ảnh hưởng đến tiến độ. |
 | 3 | Quên đồ khi đi học, phải quay lại lấy | Khoảng 5 lần/tuần, 5 phút/lần; phạm vi nhỏ, dễ theo dõi. | Nguyên nhân quên và mức trễ giờ thực tế. |
 
@@ -60,7 +60,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Actor | Tôi — học viên làm bài lab. |
 | Thời điểm / bối cảnh | Khi bắt đầu đọc đề bài lab có nhiều thông tin, cần xác định các bước chuẩn bị và thứ tự thực hiện trước khi làm bài. |
 | Quy trình hiện tại (3–7 bước) | Mở đề (1 phút) → đọc lượt đầu (15 phút) → tìm tiêu chí chấm (5 phút) → đọc lại để xác định thứ tự (5 phút) → chờ và hỏi labcoach (1 + 2 phút) → ngẫm câu trả lời, xác định việc làm trước (2 phút), rồi bắt đầu làm. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước đọc lại để xác định phải làm gì trước: khoảng 5 phút trong lần vừa hồi tưởng. Đọc lượt đầu mất lâu nhất (15 phút), nhưng chưa đủ bằng chứng kết luận đây là bước nghẽn. Khó khăn cốt lõi vẫn là xác định thứ tự và tránh bỏ sót; cần kiểm chứng lại vị trí bottleneck. Tổng lần này khoảng 31 phút. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bottleneck giả định: bước đọc lại để xác định phải làm gì trước, khoảng 5 phút trong lần vừa hồi tưởng. Đọc lượt đầu mất lâu nhất (15 phút), nhưng chưa đủ bằng chứng kết luận đây là bước nghẽn. Khó khăn cốt lõi vẫn là xác định thứ tự và tránh bỏ sót; cần kiểm chứng lại vị trí bottleneck. Tổng lần này khoảng 31 phút. |
 | Impact (nếu không giải thì sao) | Mất thời gian trước khi bắt đầu làm vì chưa xác định được thứ tự ưu tiên; dễ bỏ sót yêu cầu quan trọng ngay từ đầu như quy tắc đặt tên, ghi AI log và phân công công việc trước khi làm. Việc hỏi labcoach làm rõ từng phần nhưng chưa giúp tôi nắm toàn bộ thứ tự thực hiện. |
 | Success metric (baseline → target) | Mục tiêu cá nhân đã xác nhận, chưa thử nghiệm: giảm thời gian từ lúc mở đề đến khi xác định được việc cần làm đầu tiên, các yêu cầu cần thực hiện ngay từ đầu (ví dụ đặt tên, AI log, phân công) và tiêu chí chấm liên quan từ khoảng 31 phút trong lần hồi tưởng gần nhất xuống tối đa 15 phút. Ước lượng ban đầu cho các lần thường gặp là 30 phút trở lên; chưa có số đo trung bình. Bấm giờ trong 3 bài lab tiếp theo và đối chiếu cách hiểu với đề/rubric hoặc labcoach. Baseline hiện là ước lượng, cần đo lại theo cùng định nghĩa. |
 | Phương án không dùng AI | Lập checklist theo thứ tự: việc chuẩn bị trước khi làm (đặt tên, phân công), việc cần ghi trong quá trình làm (AI log), các phần bài tập và yêu cầu trước khi nộp; đối chiếu với đề và rubric. Gom các điểm chưa rõ để hỏi labcoach cùng một lượt. Đây là phương án đề xuất, chưa thử nghiệm. |
@@ -156,7 +156,7 @@ Quy trình nháp hiện tại:
 ### Card muốn pitch nhất
 
 - Card số: **1 — Khó xác định thứ tự làm và dễ bỏ sót yêu cầu quan trọng của bài lab.**
-- Vì sao: Đây là khó khăn tôi trực tiếp gặp khi bắt đầu làm lab: mất khoảng 30 phút trở lên đọc đi đọc lại mà vẫn chưa rõ phải làm gì trước. Tôi dễ bỏ sót các yêu cầu quan trọng như quy tắc đặt tên, ghi AI log và phân công công việc. Vấn đề có actor, bối cảnh và bước nghẽn cụ thể; có thể kiểm chứng thêm với những học viên thực sự gặp tình huống tương tự. Chưa kết luận những người khác cũng gặp hoặc cần dùng AI.
+- Vì sao: Đây là khó khăn tôi trực tiếp gặp khi bắt đầu làm lab: mất khoảng 31 phút tìm hiểu yêu cầu trong lần hồi tưởng gần nhất, gồm 15 phút đọc lượt đầu và 5 phút đọc lại để xác định phải làm gì trước, cùng các bước mở đề, tìm rubric, hỏi và ngẫm câu trả lời của labcoach. Tôi dễ bỏ sót các yêu cầu quan trọng như quy tắc đặt tên, ghi AI log và phân công công việc. Vấn đề có actor, bối cảnh và bước nghẽn cụ thể; có thể kiểm chứng thêm với những học viên thực sự gặp tình huống tương tự. Chưa kết luận những người khác cũng gặp hoặc cần dùng AI.
 - Câu hỏi muốn nhóm phản biện: **Bằng chứng hiện tại đã đủ để coi việc khó xác định thứ tự làm và bỏ sót yêu cầu là một vấn đề cần ưu tiên chưa? Nhóm sẽ kiểm tra thế nào để biết một checklist theo thứ tự có đủ giải quyết vấn đề?**
 
 ### AI đã phản biện card thế nào
@@ -164,9 +164,9 @@ Quy trình nháp hiện tại:
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
 | Mô tả ban đầu chưa tách rõ khó hiểu nội dung, khó xác định thứ tự làm và việc hỏi labcoach. Cần làm rõ khó khăn cốt lõi. | Tôi xác định cốt lõi là không biết phải làm gì trước giữa nhiều thông tin; việc labcoach bận không phải trọng tâm. | Đã sửa tên card, Job Story, bối cảnh và impact; bổ sung ví dụ quy tắc đặt tên, AI log và phân công. Phương án không dùng AI được cụ thể hóa thành checklist theo thứ tự. |
-| Khoảng 30 phút là thời gian tìm hiểu yêu cầu, chưa phải thời gian đo riêng bước đọc lại; mục tiêu 15 phút chưa được kiểm chứng. | Đã đồng ý mục tiêu 15 phút; cần đo lại baseline và kiểm chứng kết quả. | Đã ghi baseline là ước lượng, thời gian từng bước chưa đo; mục tiêu 15 phút đã được tôi đồng ý nhưng chưa thử nghiệm. |
+| Không thể coi toàn bộ thời gian tìm hiểu yêu cầu là thời gian đọc lại, hoặc kết luận bước lâu nhất chính là bottleneck. | Tôi đã bổ sung ước lượng từng bước và đồng ý mục tiêu 15 phút; cần kiểm chứng bottleneck và kết quả cải thiện. | Đã cập nhật tổng Card #1 thành 31 phút, gồm 15 phút đọc lượt đầu và 5 phút đọc lại. Đánh dấu bước đọc lại là bottleneck giả định; mọi số liệu là hồi tưởng, chưa bấm giờ. |
 
-**Phần CP2 còn cần bổ sung:**
+**Trạng thái chốt CP2 và giới hạn dữ liệu:**
 
 - Cả 3 quy trình đã có thời gian từng bước theo hồi tưởng; các mốc bắt đầu làm bài hoặc tiếp tục đi học là mốc kết thúc, không cộng thời gian riêng. Số liệu là ước lượng, có thể đối chiếu ghi chép hoặc bấm giờ để kiểm tra.
 - Tôi đã đồng ý 3 mục tiêu: Card #1 tối đa 15 phút, Card #2 tối đa 4 giờ, Card #3 tối đa 1 lần quay lại lấy đồ/tuần. Các mục tiêu chưa thử nghiệm; mục tiêu Card #2 cần trao đổi thêm với nhóm.
@@ -196,7 +196,7 @@ Quy trình nháp hiện tại:
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý tình huống để đối chiếu, hỏi thêm thông tin và hỗ trợ viết Job Story, tổng hợp bảng. | Giúp cấu trúc trải nghiệm và làm rõ dấu hiệu thật. | Ban đầu gọi việc quên mang đồ là tìm đồ, chưa sát trải nghiệm. | Tôi cung cấp chi tiết quên đồ và phải quay lại lấy; nội dung được chỉnh theo thông tin này. |
-| CP2 Problem Card | Nhờ AI hướng dẫn chọn candidate và cấu trúc 3 Problem Card từ trải nghiệm tôi cung cấp; đề xuất metric, phương án và phản biện. | Làm rõ bước đọc lại để xác định việc làm trước là bottleneck cần khảo sát. | Các mục tiêu cải thiện và phương án mới là đề xuất; chưa có thời gian riêng mọi bước. Quy trình Card #3 cần tự xác nhận chi tiết. | Tôi cung cấp thứ tự đọc đề, tìm tiêu chí chấm, đọc lại và hỏi labcoach; cần tự xác nhận mục tiêu và đo thêm. |
+| CP2 Problem Card | Nhờ AI hướng dẫn chọn candidate, cấu trúc 3 card, đề xuất metric và phương án; phản biện và rà soát tính nhất quán. | Giúp tách thời gian chờ và thao tác, tránh tính trùng 5 phút quay lại lấy đồ, và ghi rõ bottleneck giả định của Card #1. | AI từng coi phần lớn thời gian Card #1 là đọc lại khi chưa có số liệu từng bước; một số ghi chú chưa được cập nhật sau khi tôi bổ sung dữ liệu. | Tôi làm rõ khó khăn cốt lõi, cung cấp thời gian từng bước, sửa lượt đọc đầu thành 15 phút, xác nhận 5 phút Card #3 gồm cả hai chặng và đồng ý 3 mục tiêu. Báo cáo đã cập nhật; thời gian vẫn là ước lượng, mục tiêu chưa thử nghiệm. |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
@@ -227,16 +227,3 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 ## 7. Tài liệu tham khảo
 
 -
-
-
-
-
-
-
-
-
-
-
-
-
-
